@@ -13,6 +13,6 @@ Jekyll will now compile the site any time a change is made to a file in this dir
 
 To push changes live, simply push the `master`. Github automatically compiles the site and makes the changes live!
 
-## To Blog
-Navigate to [folder] in GitHub and create a new file, titled [date].md. This is a Markdown file. Write the content of your post in the space provided, add a commit message where prompted, and commit to master. This will make your changes live.
+## To Make An Announcement
+Follow the steps in sample.md!
 
