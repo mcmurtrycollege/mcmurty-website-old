@@ -15,16 +15,33 @@ title: Home
 <!-- quick links -->
 <div id='home-quick'>
 	<h3> Quick Links </h3>
+	<span class='quick-link'> Room Reservations </span>
+	<span class='quick-link'> Events </span>
+	<span class='quick-link'> Town Hall Minutes </span>
+	<span class='quick-link'> Budget </span>
+	<span class='quick-link'> Initiatives REquest </span>
 </div>
 
-<!-- events -->
+<!-- intro -->
 <section id='home-intro'>
 	<h2> We Are Murt </h2>
+	<div class='section-text'>
+		<p> If you hear the call of the conch, followed by an enthusiastic cheer of MURRTTT, fear not. It’s just us. McMurtry is the tenth residential college at Rice University. Despite being the second youngest, we already have a thriving culture revolving around our Scottish heritage, love of bananas, and general awesomeness. </p>
+	</div>
 </section>
 
 <!-- announcements -->
 <section id='home-announcements'>
 	<h2> Announcements </h2>
+	{% for post in site.posts limit: 4 %}
+		<div class='home-post'> 
+			<span class='home-post-date'> {{ post.date | date: "%B.%-d.%Y"  }} </span>
+			<span class='home-post-title'> {{ post.title }} </span>
+			{{ post.content }}
+		</div>
+		<div class='home-post-border'></div>
+	{% endfor %}
+	<span class='accent'> view more </span>
 </section>
 
 
