@@ -1,5 +1,5 @@
 # Website 2.0
-McMurtry College: the greatest residential college at Rice! Current site is currently under development. 
+McMurtry College: the greatest residential college at Rice! Site is currently under development. 
 
 ## About the Site
 This is a Jekyll + Github Pages site. Pushing to the repository on the `master` branch compiles the site and pushes it live. If developing non-live changes, don't push to `master`!
