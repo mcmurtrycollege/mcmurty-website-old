@@ -4,7 +4,8 @@ This is an announcement.
 
 ## This is a Subtitle
 
-Here's how you add a post: 
+Here's how you add a post:
+
 1. If you're reading this, that means you're already on the Github. Navigate to the _posts folder and click on NEW FILE. 
 2. Filename should be in the format of 'MM-DD-YYYY-title.md'. For example: 02-15-2016-sample.md
 3. You can follow the format of this page to write the body of the post. (There are some more markdown tips further down)
@@ -19,6 +20,7 @@ This is how you create a bulleted list (all three are identical, so take your pi
 - Bullet Item
 
 To create a numbered list, just do numbers with a period after.
+
 1. This
 2. Is
 3. A
