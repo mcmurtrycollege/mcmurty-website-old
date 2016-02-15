@@ -24,13 +24,10 @@ To create a numbered list, just do numbers with a period after.
 3. A
 4. Numbered List
 
-There are 6 levels of headers. The more hashtags, the smaller.
-# Largest
-## Largish
-### Medium
-#### Smaller
-##### Smallish
-###### Smallist
+There are 6 levels of headers. The more hashtags, the smaller. Post titles should use 3. Subtitles within post should use 4. Try not to go lower than that.
+
+### Post Title
+#### Post Subtitle
 
 If you need anything more detailed, here are some links that you can check out. You most likely won't need them though.
 * <https://daringfireball.net/projects/markdown/syntax>
