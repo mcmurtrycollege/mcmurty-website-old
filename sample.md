@@ -7,7 +7,7 @@ This is an announcement.
 Here's how you add a post:
 
 1. If you're reading this, that means you're already on the Github. Navigate to the _posts folder and click on NEW FILE. 
-2. Filename should be in the format of 'MM-DD-YYYY-title.md'. For example: 02-15-2016-sample.md
+2. Filename should be in the format of '**MM-DD-YYYY-title.md**'. For example: **02-15-2016-sample.md**
 3. You can follow the format of this file to write the body of the post. Click on the **PENCIL** icon to view syntax. (There are some more markdown tips further down)
 4. Once done, there should be a 'Commit New File' option. The first input box is a description -- this is necessary. You can follow the format 'posted [title of post]'. Leave the radio button at 'Commit directly to master'. You should now be able to click 'Commit new file'. 
 5. You're done! Celebrate!
