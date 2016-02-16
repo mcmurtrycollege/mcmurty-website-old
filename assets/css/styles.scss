@@ -1,0 +1,83 @@
+// styles.scss
+
+// import
+@import 'reset';
+@import 'mixins';
+@import 'main';
+
+////// pages
+
+//// home
+// banner
+#home-banner {
+	background: url('../img/mcmurtry-spring.jpg') center center no-repeat;
+	background-size: cover;
+}
+// intro
+#home-intro {
+	background-color: #E2DCEB;
+}
+// announcements
+.home-post {
+	display: block;
+	text-align: justify;
+	&-title {
+		padding-left: 15px;
+	}
+	&-author {
+		width: 100%;
+		display: block;
+		text-align: right;
+	}
+	&-border {
+		width: 100%;
+		padding-bottom: 30px;
+		border-bottom: 1px solid $color-dark-purple;
+	}
+}
+// quick-links
+#home-quick {
+	width: 100%;
+	padding: 20px;
+	position: relative;
+	bottom: 60px;
+	background-color: $color-purple;
+	@include flex();
+	@include flex-align(center);
+    @include flex-justify-content(space-around);
+    @include box-sizing(border-box);
+	h3 {
+		font-size: 16px;
+		display: inline-block;
+		padding: 15px;
+		background-color: white;
+	}
+	a {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 14px;
+		font-weight: 400;
+		text-transform: uppercase;
+		&:link, &:visited {
+			color: white;
+		}
+		&:hover {
+			color: $color-dark-purple;
+		}
+	}
+}
+
+//// about
+
+//// announcements
+
+//// students
+
+//// mcteam
+
+//// mcministry
+
+//// oweek
+
+//// resources
+
+//// contact

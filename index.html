@@ -2,12 +2,9 @@
 layout: default
 title: Home
 ---
-<!-- heading -->
-<div>
-	<h1> McMurtry College </h1>
-</div>
 
-{% include nav.html %}
+<!-- placeholder -->
+<div id='placeholder'></div>
 
 <!-- image -->
 <div id='home-banner' class='banner'></div>
@@ -15,11 +12,11 @@ title: Home
 <!-- quick links -->
 <div id='home-quick'>
 	<h3> Quick Links </h3>
-	<span class='quick-link'> Room Reservations </span>
-	<span class='quick-link'> Events </span>
-	<span class='quick-link'> Town Hall Minutes </span>
-	<span class='quick-link'> Budget </span>
-	<span class='quick-link'> Initiatives REquest </span>
+	<a href='/resources/reserve/' class='quick-link'> Room Reservations </a>
+	<a href='/events/' class='quick-link'> Events </a>
+	<a href='/mcministry/minutes/' class='quick-link'> Town Hall Minutes </a>
+	<a href='/mcministry/budget/' class='quick-link'> Budget </a>
+	<a href='/resources/initiatives' class='quick-link'> Initiatives Request </a>
 </div>
 
 <!-- intro -->
@@ -35,14 +32,17 @@ title: Home
 	<h2> Announcements </h2>
 	{% for post in site.posts limit: 4 %}
 		<div class='home-post'> 
-			<span class='home-post-date'> {{ post.date | date: "%B.%-d.%Y"  }} </span>
+			<span class='home-post-date'> {{ post.date | date: "%-m.%-d.%Y"  }} </span>
 			<span class='home-post-title'> {{ post.title }} </span>
-			{{ post.content }}
+			<p class='home-post-entry'>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
+			<span class='home-post-author'> - {{ post.author }} </span>
 		</div>
 		<div class='home-post-border'></div>
 	{% endfor %}
-	<span class='accent'> view more </span>
+	<a href='/announcements/' class='accent'> view more </span>
 </section>
 
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="assets/js/scripts.js"></script>
 

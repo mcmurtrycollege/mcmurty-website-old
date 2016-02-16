@@ -1,0 +1,40 @@
+// _mixins.scss
+
+//// mixins
+
+// transitions
+@mixin transition($time, $animate, $property: all) {
+    -webkit-transition: $property $time $animate;
+    -o-transition: $property $time $animate;
+    transition: $property $time $animate;
+}
+
+// properties
+@mixin box-sizing($size) {
+    -webkit-box-sizing: $size;
+    -moz-box-sizing: $size;
+    box-sizing: $size;
+}
+
+// flexbox properties
+@mixin flex() {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+@mixin flex-justify-content($property) {
+    -webkit-justify-content: $property;
+    justify-content: $property;
+}
+@mixin flex-wrap($property) {
+    -webkit-flex-wrap: $property;
+    flex-wrap: $property;
+}
+@mixin flex-align($property) {
+    -webkit-align-items: $property;
+    align-items: $property;
+}
+@mixin flex-direction($property) {
+    -webkit-flex-direction: $property;
+    flex-direction: $property;
+}

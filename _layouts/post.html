@@ -1,12 +1,19 @@
 ---
 layout: default
 ---
-
+<!-- post -->
 <article>
 	
+	<!-- post header -->
 	<header>
 		<h3 class='post-title'> {{ page.title }} </h3>
 		<span class='post-date'> {{ post.date | date: "%B.%-d.%Y"  }} </span>
+		<span class='post-author'> {{ post.author }} </span>
 	</header>
+	
+	<!-- post entry -->
+	<div class='post-entry'>
+		{{ content }}
+	</div>
 
 </article>

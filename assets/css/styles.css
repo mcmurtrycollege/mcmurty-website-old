@@ -1,0 +1,188 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0; }
+
+img {
+  width: auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #8964A1; }
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+  color: black; }
+
+h2 {
+  font-size: 18px; }
+
+p, span {
+  font-family: 'Quattrocento', serif;
+  color: black; }
+
+section {
+  width: 100%;
+  height: auto;
+  padding: 40px 20% 40px 20%;
+  position: relative;
+  bottom: 60px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  section h2 {
+    width: 225px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding: 15px;
+    display: inline-block;
+    border: 1px solid #8964A1;
+    text-align: center; }
+  section .section-text {
+    text-align: justify; }
+
+.banner {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  bottom: 60px; }
+
+#heading {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+  #heading h1 {
+    display: inline-block;
+    padding: 25px;
+    padding-left: 10px; }
+  #heading div {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center; }
+  #heading img {
+    display: inline-block; }
+
+nav {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-clip: padding-box;
+  z-index: 5;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out; }
+  nav #nav-menu {
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+  nav .nav-link {
+    height: 20px;
+    padding: 20px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    nav .nav-link:link, nav .nav-link:visited {
+      color: white; }
+    nav .nav-link:hover {
+      color: #8964A1 !important; }
+  nav .nav-submenu {
+    display: none;
+    position: absolute;
+    top: 20px; }
+
+#placeholder {
+  display: none;
+  height: 60px; }
+
+#home-banner {
+  background: url("../img/mcmurtry-spring.jpg") center center no-repeat;
+  background-size: cover; }
+
+#home-intro {
+  background-color: #E2DCEB; }
+
+.home-post {
+  display: block;
+  text-align: justify; }
+  .home-post-title {
+    padding-left: 15px; }
+  .home-post-author {
+    width: 100%;
+    display: block;
+    text-align: right; }
+  .home-post-border {
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #443850; }
+
+#home-quick {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  bottom: 60px;
+  background-color: #8964A1;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  #home-quick h3 {
+    font-size: 16px;
+    display: inline-block;
+    padding: 15px;
+    background-color: white; }
+  #home-quick a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase; }
+    #home-quick a:link, #home-quick a:visited {
+      color: white; }
+    #home-quick a:hover {
+      color: #443850; }
