@@ -41,7 +41,7 @@ To create a numbered list, just do numbers with a period after. Leave a new line
 3. A
 4. Numbered List
 
-This is **bold** text. This is *italic* text.
+This is **bold** text. This is *italic* text. [This is a hyperlink](http://www.google.com/)
 
 If you need anything more detailed, here are some links that you can check out. You most likely won't need them though.
 

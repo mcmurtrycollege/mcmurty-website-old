@@ -8,69 +8,162 @@
 ////// pages
 
 //// home
-// banner
-#home-banner {
-	background: url('../img/mcmurtry-spring.jpg') center center no-repeat;
+	// banner
+	#home-banner {
+		background: url('../img/mcmurtry-spring.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	// intro
+	#home-intro {
+		background-color: $color-light-purple;
+	}
+	// quick-links
+	#home-quick {
+		width: 100%;
+		padding: 20px;
+		position: relative;
+		bottom: 60px;
+		background-color: $color-purple;
+		@include flex();
+		@include flex-justify-content(center);
+	    @include box-sizing(border-box);
+	    div {
+	    	width: 80%;
+	    	@include flex();
+			@include flex-align(center);
+		    @include flex-justify-content(space-around);
+	    }
+		h3 {
+			font-size: 16px;
+			display: inline-block;
+			padding: 15px;
+			background-color: white;
+			@media (max-device-width: 1020px), (max-width: 1020px) {
+				font-size: 14px;
+			}
+		}
+		a {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			text-transform: uppercase;
+			@include transition(0.25s, ease-in-out);
+			&:link, &:visited {
+				color: white;
+			}
+			&:hover {
+				color: $color-dark-purple;
+			}
+		}
+		select {
+			display: none;
+		}
+
+		@media (max-device-width: 920), (max-width: 920px) {
+			bottom: 0px;
+
+			div {
+				display: none;
+			}
+			select {
+				width: 256px;
+				margin: 0 auto;
+				padding: 15px;
+				display: block;
+
+				border: 1px solid white;
+				outline: none;
+
+				-webkit-appearance: none;
+				appearance: none;
+	  			-webkit-border-radius: 0px;
+	  			border-radius: 0px;
+				
+
+				text-align: center;
+				text-transform: uppercase;
+				text-indent: 64px;
+
+				font-family: 'Quicksand', sans-serif;
+				font-size: 14px;
+				font-weight: 700;
+
+				color: white;
+
+				background-color: transparent;
+				background: url('../img/down.png') 96% / 15% no-repeat;
+			}
+		}
+	}
+	// announcements
+	.home-post {
+		margin-top: 15px;
+		display: block;
+		text-align: justify;
+		&-title {
+			padding-left: 15px;
+		}
+		&-author {
+			width: 100%;
+			display: block;
+			text-align: right;
+		}
+		&-border {
+			width: 100%;
+			padding-bottom: 30px;
+			border-bottom: 1px solid $color-dark-purple;
+		}
+		&-sub {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 12px;
+			color: $color-purple;
+		}
+		&-entry {
+			a {
+				font-family: 'Quattrocento', serif;
+				font-size: 16px;
+				&:link, &:visited {
+					color: $color-teal;
+				}
+				&:hover {
+					color: $color-accent-blue;
+				}
+			}
+		}
+	}
+
+//// banners
+#about-banner {
+	background: url('../img/about.jpg') top center no-repeat;
 	background-size: cover;
 }
-// intro
-#home-intro {
-	background-color: #E2DCEB;
-}
-// announcements
-.home-post {
-	display: block;
-	text-align: justify;
-	&-title {
-		padding-left: 15px;
-	}
-	&-author {
-		width: 100%;
-		display: block;
-		text-align: right;
-	}
-	&-border {
-		width: 100%;
-		padding-bottom: 30px;
-		border-bottom: 1px solid $color-dark-purple;
-	}
-}
-// quick-links
-#home-quick {
-	width: 100%;
-	padding: 20px;
-	position: relative;
-	bottom: 60px;
-	background-color: $color-purple;
-	@include flex();
-	@include flex-align(center);
-    @include flex-justify-content(space-around);
-    @include box-sizing(border-box);
-	h3 {
-		font-size: 16px;
-		display: inline-block;
-		padding: 15px;
-		background-color: white;
-	}
-	a {
-		font-family: 'Open Sans', sans-serif;
-		font-size: 14px;
-		font-weight: 400;
-		text-transform: uppercase;
-		&:link, &:visited {
-			color: white;
-		}
-		&:hover {
-			color: $color-dark-purple;
-		}
-	}
-}
 
-//// about
+#student-banner {
+	background: url('../img/people.jpg') center center no-repeat;
+	background-size: cover;
+}
+#oweek-banner {
+	background: url('../img/oweek.jpg') top center no-repeat;
+	background-size: cover;
+}
+#events-banner {
+	background: url('../img/events.jpg') center center no-repeat;
+	background-size: cover;
+}
+#ufo-banner {
+	background: url('../img/ufoweek.jpg') center center no-repeat;
+	background-size: cover;
+}
 
 //// announcements
 
 //// students
+// committee
+.comm-group {
+	// @include flex();
+}
+.comm-single {
+	margin-top: 30px;
+}
 
 //// mcteam
 

@@ -1,0 +1,36 @@
+---
+layout: people
+title: Committees
+---
+
+{% for group in site.data.committees %}
+<section class='office'>
+	<h2> {{ group.name }} </h2>
+	
+	<div class='comm-group'>
+	{% for committee in group.committees %}
+		<div class='comm-single'>
+			<h3> {{ committee.name }} </h3>
+			<div class='section-text'>
+				<p> {{ committee.description}} </p>
+			</div>
+			<table class='comm-heads'>
+				<tr class='table-heading'>
+					<th> Name </th>
+					<th> Email </th>
+				</tr>
+				{% for head in committee.heads %}
+					<tr class='table-data'>
+						<td> {{ head.name }} </td>
+						<td> <a href='mailto:{{ head.email }}'> {{ head.email }} </a> </td>
+					</tr>
+				{% endfor %}
+			</table>
+		</div>
+	
+	{% endfor %}
+	</div>
+
+</section>
+
+{% endfor %}

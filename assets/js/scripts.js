@@ -3,46 +3,83 @@ $(document).ready(function() {
 
 	// var declarations
 	var headingHeight = $('#heading').outerHeight();
+	var colorDarkPurple = '#443850';
+	var colorPurple = '#8964A1';
+	$('.nav-dropdown .nav-link').click(function(e) {
+	    e.preventDefault();
+	});
 
 	//// functions
+
+	// miscellaneous
+
+	// nav bar helpers
+	function animateNavColorPosition(position, bgColor, accentColor, fontColor, fontAccent, fontWeight, fontOldWeight) {
+
+		$('nav').css({'position': position, 'background-color': bgColor});
+			$('.nav-link').css({'color':fontColor, 'font-weight':fontWeight});
+			$('.nav-single').hover(
+				function() {
+					$(this).css({'background-color': accentColor});
+					$(this).css({'color':fontAccent, 'font-weight':fontWeight});
+				}, function() {
+					$(this).css({'background-color': 'transparent'});
+					$(this).css({'color':fontColor, 'font-weight':fontOldWeight});
+				}
+			);
+			$('.nav-dropdown').hover(
+				function() {
+					$(this).css({'background-color': accentColor});
+					$('.nav-link', this).css({'color':fontAccent, 'font-weight':fontWeight});
+				}, function() {
+					$(this).css({'background-color': 'transparent'});
+					$('.nav-link', this).css({'color':fontColor, 'font-weight':fontOldWeight});
+				}
+			);
+	}
+
+	function animateDropDown(bgColor) {
+
+		var menu = '.nav-submenu';
+
+		$('.nav-dropdown').hover(
+			function() {
+				$(menu, this).show();
+				$(menu, this).css({'background-color': bgColor});
+			}, function() {
+				$(menu, this).hide();
+			}
+		);
+	}
+
 	// nav bar animation
 	function animateNavBar(w) {
 		// check height
 		if (w.scrollTop() > headingHeight) {
-			// make position fixed
-			$('nav').css({'position':'fixed', 'background-color':'white'});
-			$('nav a').css({'color':'#443850', 'font-weight':'600'});
-			$('nav a').hover(
-				function() {
-					$(this).css({'background-color': '#E2DCEB'});
-				}, function() {
-					$(this).css({'background-color': 'transparent'});
-				}
-			);
+			// make position fixed + change color
+			animateNavColorPosition('fixed', 'white', '#4C4b63', colorDarkPurple, 'white', '600', '600');
 			$('#placeholder').css({'display':'block'});
-			// change color
+
+			// dropdown menu
+			animateDropDown('#4C4b63');
 		} else {
-			$('nav').css({'position':'relative', 'background-color':'rgba(0, 0, 0, 0.6)'});
-			$('nav a').css({'color':'white', 'font-weight':'400'});
-			$('nav a').hover(
-				function() {
-					$(this).css({'background-color': 'rgba(0, 0, 0, 0.5)'});
-				}, function() {
-					$(this).css({'background-color': 'transparent'});
-				}
-			);
+			// make position fixed + change color
+			animateNavColorPosition('relative', 'rgba(0, 0, 0, 0.6)', 'rgba(0, 0, 0, 0.5)', 'white', colorPurple, '400', '400');
 			$('#placeholder').css({'display':'none'});
+
+			// dropdown menu
+			animateDropDown('rgba(0, 0, 0, 0.8)');
 		}
 	}
-
-	//// event listeners
 	
-	// on scroll animations
-	animateNavBar($(window));
-
+	// on resize
+	// on scroll calls
 	$(window).scroll(function() {
 		// navbar animation
 		animateNavBar($(window));
 	});
+
+	// on load calls
+	animateNavBar($(window));
 
 });

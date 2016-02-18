@@ -1,0 +1,36 @@
+---
+layout: people
+title: Court
+---
+<section class='office'>
+	<h2> Justices </h2>
+
+	<table class='officers'>
+		<tr class='table-heading'>
+			<td></td>
+			<th> Name </th>
+			<th> Phone </th>
+			<th> Email </th>
+			<th> Year </th>
+		</tr>
+		{% assign chief = site.data.court.chief %}
+		<tr class='table-data'>
+			<th> Chief Justice </th>
+			<td> {{ chief.name }} </td>
+			<td> {{ chief.phone }} </td>
+			<td> <a href='mailto:{{ chief.email }}'> {{ chief.email }} </a> </td>
+		</tr>
+		{% assign associates = site.data.court.associates %}
+		{% for justice in associates %}
+			<tr class='table-data' style='vertical-align: top;'>
+				{% if associates.first.name == justice.name %}
+					<th rowspan= {{ associates | size }} > Associate Justices </th>
+				{% endif %}
+				<td> {{ justice.name }} </td>
+				<td> {{ justice.phone }} </td>
+				<td> <a href='mailto:{{ justice.email }}'> {{ justice.email }} </a> </td>
+				<td> {{ justice.year }} </td>
+			</tr>
+		{% endfor %}
+	</table>
+</section>

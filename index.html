@@ -3,27 +3,36 @@ layout: default
 title: Home
 ---
 
-<!-- placeholder -->
-<div id='placeholder'></div>
-
 <!-- image -->
 <div id='home-banner' class='banner'></div>
 
 <!-- quick links -->
 <div id='home-quick'>
-	<h3> Quick Links </h3>
-	<a href='/resources/reserve/' class='quick-link'> Room Reservations </a>
-	<a href='/events/' class='quick-link'> Events </a>
-	<a href='/mcministry/minutes/' class='quick-link'> Town Hall Minutes </a>
-	<a href='/mcministry/budget/' class='quick-link'> Budget </a>
-	<a href='/resources/initiatives' class='quick-link'> Initiatives Request </a>
+	<div>
+		<h3> Quick Links </h3>
+		<a href='/resources/reserve/' class='quick-link'> Room Reservations </a>
+		<a href='/events/' class='quick-link'> Events </a>
+		<a href='/mcministry/minutes/' class='quick-link'> Town Hall Minutes </a>
+		<a href='/mcministry/budget/' class='quick-link'> Budget </a>
+		<a href='/resources/initiatives/' class='quick-link'> Initiatives Request </a>
+	</div>
+
+	<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" name="quick">
+    	<option value=""> Quick Links </option>
+		<option value="/resources/reserve/"> Room Reservations </option>
+		<option value="/events/"> Events </option>
+		<option value="/mcministry/minutes/"> Town Hall Minutes </option>
+		<option value="/mcministry/budget/"> Budget </option>
+		<option value="/resources/initiatives/"> Initiatives Request </option>
+	</select>
 </div>
 
 <!-- intro -->
 <section id='home-intro'>
 	<h2> We Are Murt </h2>
 	<div class='section-text'>
-		<p> If you hear the call of the conch, followed by an enthusiastic cheer of MURRTTT, fear not. It’s just us. McMurtry is the tenth residential college at Rice University. Despite being the second youngest, we already have a thriving culture revolving around our Scottish heritage, love of bananas, and general awesomeness. </p>
+		<p> McMurtry College is home to the Murts, a diverse collection of students coming from all walks of life. Whether you are a musi, archi, engineer or academ, there’s a place for you within the walls of McMurtry. Murts are a tight-knit family who can often to be seen eating, playing, studying and dodging ceiling tiles together. Fierce in spirit and amazing in everything else, being a Murt is not just a transient college title but a way of life. </p>
+		<p> We rally to the call of the conch, and despite being the second youngest college, have a thriving culture revolving around our Scottish heritage, love of bananas, and general awesomeness. </p>
 	</div>
 </section>
 
@@ -32,17 +41,14 @@ title: Home
 	<h2> Announcements </h2>
 	{% for post in site.posts limit: 4 %}
 		<div class='home-post'> 
-			<span class='home-post-date'> {{ post.date | date: "%-m.%-d.%Y"  }} </span>
-			<span class='home-post-title'> {{ post.title }} </span>
-			<p class='home-post-entry'>{{ post.content | remove: '<p>' | remove: '</p>' }}</p>
-			<span class='home-post-author'> - {{ post.author }} </span>
+			<span class='home-post-sub home-post-date'> {{ post.date | date: "%-m.%-d.%Y"  }} </span>
+			<span class='home-post-sub home-post-title'> {{ post.title }} </span>
+			<p class='home-post-entry'>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+			<span class='home-post-sub home-post-author'> - {{ post.author }} </span>
 		</div>
 		<div class='home-post-border'></div>
 	{% endfor %}
-	<a href='/announcements/' class='accent'> view more </span>
+	<br><br>
+	<a href='/announcements/' class='accent'> see all </a>
 </section>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="assets/js/scripts.js"></script>
 

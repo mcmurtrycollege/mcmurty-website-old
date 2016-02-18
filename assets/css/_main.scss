@@ -4,6 +4,7 @@
 // main palette
 $color-purple: #8964A1;
 $color-dark-purple: #443850;
+$color-light-purple: #E2DCEB;
 $color-teal: #2E4952;
 $color-grey: #CDCDCD;
 // accents
@@ -11,6 +12,7 @@ $color-accent-canary: #DFD5A5;
 $color-accent-offwhite: #D3D0CB;
 $color-accent-maroon: #5B2333;
 $color-accent-grey: #AEB5B7;
+$color-accent-blue: #44CCFF;
 
 
 //// general
@@ -22,17 +24,62 @@ h1, h2, h3, h4, h5, h6 {
 	color: $color-purple;
 }
 h1 {
-	font-size: 36px;
+	font-size: 28px;
 	font-weight: 400;
 	color: black;
 }
 h2 {
 	font-size: 18px;
 }
-p, span {
+p{
 	font-family: 'Quattrocento', serif;
 	color: black;
+	line-height: 150%;
 }
+a, span {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	color: black;
+}
+
+// tables
+table {
+	width: 100%;
+	margin: 0 auto;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+td, th {
+	padding: 15px;
+	border-bottom: 1px solid $color-light-purple;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-align: left;
+	a {
+		font-size: 14px; 
+
+		&:link, &:visited {
+			color: $color-dark-purple;
+		}
+		&:hover {
+			color: $color-purple;
+		}
+	}
+}
+tr {
+	width: 100%;
+}
+.table-heading {
+	border-top: 2px solid $color-purple;
+}
+
+.table-data {
+	&:hover {
+		background-color: $color-light-purple;
+	}
+}
+
 
 // containers
 section {
@@ -42,9 +89,7 @@ section {
 	position: relative;
 	bottom: 60px;
 	text-align: center;
-	-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+	@include box-sizing(border-box);
 
     h2 {
     	width: 225px;
@@ -60,13 +105,49 @@ section {
     .section-text{
 		text-align: justify;
 	}
+
+	@media (max-device-width: 920), (max-width: 920px) {
+		padding: 30px 5% 30px 5%;
+		bottom: 0px;
+		p {
+			font-size: 14px;
+		}
+	}
 }
 .banner {
 	width: 100%;
 	height: 450px;
 	position: relative;
 	bottom: 60px;
+	@include flex();
+	@include flex-align(center);
+
+	h1 {
+		width: 250px;
+		margin: 0 auto;
+		margin-top: 15px;
+		padding: 15px;
+		color: $color-dark-purple;
+		background-color: white;
+		text-align: center
+	}
+	@media (max-device-width: 1020), (max-width: 1020) {
+		height: 300px;
+		margin-bottom: 30px;
+		position: relative;
+		bottom: 60px;
+		text-align: center;
+	}
+	@media (max-device-width: 920), (max-width: 920px) {
+		display: none;
+		width: 100%;
+	
+	}
+	.caption {
+		position: absolute;
+	}
 }
+
 #heading {
 	width: 100%;
 	height: 100px;
@@ -81,7 +162,7 @@ section {
 		padding-left: 10px;
 	}
 
-	div {
+	a {
 		@include flex();
 	    @include flex-align(center);
 	}
@@ -103,44 +184,103 @@ nav {
     z-index: 5;
     @include flex();
     @include flex-align(center);
-    @include flex-justify-content(space-between);
+    @include flex-justify-content(space-around);
     @include box-sizing(border-box);
     @include transition(0.25s, ease-in-out, background-color);
 
 	#nav-menu {
-		width: 80%;
-		margin-left: 10%;
+		width: 90%;
 		position: relative;
         @include flex();
-        @include flex-justify-content(space-between);
+        @include flex-justify-content(center);
 	}
 
 	.nav-link {
     	height: 20px;
     	padding: 20px;
     	display: inline-block;
-    	font-family: 'Open Sans', sans-serif;
-    	font-size: 14px;
-    	font-weight: 400;
     	text-transform: uppercase;
     	&:link, &:visited {
     		color: white;
     	}
-    	&:hover {
-    		color: $color-purple !important;
-    		// background-color: rgba(0, 0, 0, 0.5);
-		}		
+  //   	&:hover {
+  //   		color: $color-purple !important;
+		// }
 	}
-
+	// .nav-dropdown:hover {
+	// 	background-color: $color-light-purple;
+	// }
+	.nav-dropdown, .nav-single {
+		@include transition(0.25s, ease-in-out);
+	}
 	.nav-submenu {
 		display: none;
 		position: absolute;
-		top: 20px;
+		@include transition(0.25s, ease-in-out);
+		// top: 20px;
+		.sub-link {
+			display: block;
+			padding: 10px 50px 10px 10px;
+			@include transition(0.25s, ease-in-out);
+			// background-color: #fff;
+			&:link, &:visited {
+				color: white;
+			}
+			&:hover {
+				color: $color-purple;
+				background-color: white;
+			}
+		}
+	}
+	
+	@media (max-device-width: 920), (max-width: 920px) {
+		#nav-menu {
+			display: none;
+		}
+
+		display: none;
 	}
 }
+
+footer {
+	width: 100%;
+	position: relative;
+	padding: 40px 20% 40px 20%;
+	text-align: center;
+	display: block;
+	background-color: $color-grey;
+	@include box-sizing(border-box);
+	#footer-address {
+		margin-bottom: 20px;
+	}
+}
+	#footer-crest {
+		width: 100%;
+		position: relative;
+		top: 80px;
+		text-align: center;
+		z-index: 3;
+	}
+
 
 // other
 #placeholder {
 	display: none;
 	height: 60px;
+	@media (max-device-width: 920), (max-width: 920px) {
+		height: 0px;
+	}
+}
+.accent {
+	display: inline-block;
+	margin-top: 20px;
+	color: white;
+	background-color: $color-dark-purple;
+	border: 2px solid $color-dark-purple;
+	padding: 15px 30px 15px 30px;
+	&:hover {
+		color: $color-dark-purple;
+		border: 2px solid $color-dark-purple;
+		background-color: white;
+	}
 }

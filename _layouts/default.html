@@ -19,8 +19,8 @@
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
     <!-- stylin' -->
-    <link rel='stylesheet' type='text/css' href='assets/css/styles.css'>
-    <link rel='shortcut icon' href='assets/img/favicon.png'>
+    <link rel='stylesheet' type='text/css' href='/assets/css/styles.css'>
+    <link rel='shortcut icon' href='/assets/img/favicon.ico'>
     <!-- facebook -->
     <meta property='og:title' content='McMurtry College'>
     <meta property='og:type' content='website'>
@@ -44,23 +44,40 @@
     
     <!-- heading -->
     <div id='heading'>
-        <div>
-            <img id='mcm-crest' src='assets/img/mcm-crest.svg' alt='' height='75'>
+        <a href='/'>
+            <img id='mcm-crest' src='/assets/img/mcm-crest.svg' alt='' height='75'>
             <h1> McMurtry College </h1>
-        </div>
+        </a>
     </div>
-
+    
     {% include nav.html %}
+
+    <!-- placeholder -->
+    <div id='placeholder'></div>
     
 	<!-- content -->
 	{{content}}
 
+    <!-- crest -->
+    <div id='footer-crest'>
+        <img src='/assets/img/mcm-crest.svg' alt='McMurtry Crest' height='150'>
+    </div>
+
 	<!-- footer -->
 	<footer>
-		<div id='footer'></div>
+        <br><br>
+        <div id='footer-address'>
+            <span> McMurtry College &middot; MS 761 &middot; <a href='http://www.rice.edu/'>Rice University</a></span><br>
+            <span> 1605 Rice Blvd. &middot; Houston, TX 77005 </span><br>
+            <span> Phone: (713) 348-4583 &middot; Fax: (713) 348-3135 </span>
+        </div>
+        <div id='footer-copyright'>
+            <span>Copyright &copy; McMurtry College, 2016</span>
+        </div>
 	</footer>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/assets/js/scripts.js"></script>
 
 </body>
 
