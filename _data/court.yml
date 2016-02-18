@@ -1,0 +1,35 @@
+chief:
+    name: Kelly Tomasevich
+    year: 2016
+    phone: (203) 848-9256
+    email: kmt6@rice.edu
+
+associates:
+-   name: Matt Adrianowycz
+    year: 2018
+    phone: (440) 391-9606
+    email: maa14@rice.edu
+-   name: Andrew Brooks
+    year: 2018
+    phone: (859) 396-9898
+    email: agb3@rice.edu
+-   name: Stephen Hannan
+    year: 2018
+    phone: (707) 217-3687  
+    email: sgh2@rice.edu
+-   name: Albert Nabiullin
+    year: 2018
+    phone: (601) 602-5025  
+    email: an22@rice.edu
+-   name: Laura Nicholson
+    year: 2018
+    phone: (651) 492-0639  
+    email: lpn1@rice.edu
+-   name: Giray Ozseker
+    year: 2016
+    phone: (832) 691-6960  
+    email: go4@rice.edu
+-   name: Rachel Resnick
+    year: 2017
+    phone: (201) 230-0087  
+    email: rdr2@rice.edu

@@ -1,0 +1,29 @@
+---
+layout: people
+title: McMinistry
+---
+
+{% for council in site.data.mcministry %}
+<section class='office'>
+	<h2> {{ council.name }} </h2>
+
+	<table class='officers'>
+		<tr class='table-heading'>
+			<td></td>
+			<th> Name </th>
+			<th> Year </th>
+			<th> Email </th>
+		</tr>
+		{% for member in council.members %}
+			<tr class='table-data'>
+				<th> {{ member.position }} </th>
+				<td> {{ member.name }} </td>
+				<td> {{ member.year }} </td>
+				<td> <a href='mailto:{{ member.email }}'> {{ member.email }} </a> </td>
+			</tr>
+		{% endfor %}
+	</table>
+
+</section>
+
+{% endfor %}
