@@ -3,8 +3,16 @@ layout: people
 title: Committees
 ---
 
+<div id='home-quick'>
+	<div>
+		<a href='/students/committees/#' class='quick-link'> External </a>
+		<a href='/students/committees/#' class='quick-link'> Internal </a>
+		<a href='/students/committees/#' class='quick-link'> Social </a>
+	</div>
+</div>
+
 {% for group in site.data.committees %}
-<section class='office'>
+<section id='{{ group.class }}' class='office'>
 	<h2> {{ group.name }} </h2>
 	
 	<div class='comm-group'>

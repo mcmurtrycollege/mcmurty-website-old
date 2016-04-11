@@ -31,16 +31,25 @@ h1 {
 h2 {
 	font-size: 18px;
 }
-p{
-	font-family: 'Quattrocento', serif;
-	color: black;
-	line-height: 150%;
-}
 a, span {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	color: black;
+}
+p {
+	font-family: 'Quattrocento', serif;
+	color: black;
+	line-height: 150%;
+	font-size: 14px;
+	a {
+		font-family: 'Quattrocento', serif;
+		color: $color-dark-purple;
+		font-size: 14px;
+		&:hover {
+			color: $color-purple;
+		}
+	}
 }
 
 // tables
@@ -189,7 +198,7 @@ nav {
     @include transition(0.25s, ease-in-out, background-color);
 
 	#nav-menu {
-		width: 90%;
+		width: 95%;
 		position: relative;
         @include flex();
         @include flex-justify-content(center);
@@ -197,8 +206,9 @@ nav {
 
 	.nav-link {
     	height: 20px;
-    	padding: 20px;
+    	padding: 20px 12px;
     	display: inline-block;
+    	text-align: center;
     	text-transform: uppercase;
     	&:link, &:visited {
     		color: white;

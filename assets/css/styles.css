@@ -29,16 +29,23 @@ h1 {
 h2 {
   font-size: 18px; }
 
-p {
-  font-family: 'Quattrocento', serif;
-  color: black;
-  line-height: 150%; }
-
 a, span {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: 400;
   color: black; }
+
+p {
+  font-family: 'Quattrocento', serif;
+  color: black;
+  line-height: 150%;
+  font-size: 14px; }
+  p a {
+    font-family: 'Quattrocento', serif;
+    color: #443850;
+    font-size: 14px; }
+    p a:hover {
+      color: #8964A1; }
 
 table {
   width: 100%;
@@ -173,7 +180,7 @@ nav {
   -o-transition: background-color 0.25s ease-in-out;
   transition: background-color 0.25s ease-in-out; }
   nav #nav-menu {
-    width: 90%;
+    width: 95%;
     position: relative;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -182,8 +189,9 @@ nav {
     justify-content: center; }
   nav .nav-link {
     height: 20px;
-    padding: 20px;
+    padding: 20px 12px;
     display: inline-block;
+    text-align: center;
     text-transform: uppercase; }
     nav .nav-link:link, nav .nav-link:visited {
       color: white; }
@@ -252,6 +260,11 @@ footer {
     color: #443850;
     border: 2px solid #443850;
     background-color: white; }
+
+#four {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 25px; }
 
 #home-banner {
   background: url("../img/mcmurtry-spring.jpg") center center no-repeat;
@@ -378,3 +391,6 @@ footer {
 
 .comm-single {
   margin-top: 30px; }
+
+.comm-heads td, .comm-heads th {
+  width: 50%; }

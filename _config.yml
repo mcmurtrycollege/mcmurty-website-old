@@ -4,6 +4,8 @@ permalink: /:categories/:title
 post_dirs: false
 
 # collections
-
+collections:
+  - events
+  - photos
 
 # 

@@ -7,6 +7,13 @@
 
 ////// pages
 
+//// 404
+	#four {
+		width: 300px;
+		margin: 0 auto;
+		margin-bottom: 25px;
+	}
+
 //// home
 	// banner
 	#home-banner {
@@ -132,39 +139,43 @@
 	}
 
 //// banners
-#about-banner {
-	background: url('../img/about.jpg') top center no-repeat;
-	background-size: cover;
-}
+	#about-banner {
+		background: url('../img/about.jpg') top center no-repeat;
+		background-size: cover;
+	}
 
-#student-banner {
-	background: url('../img/people.jpg') center center no-repeat;
-	background-size: cover;
-}
-#oweek-banner {
-	background: url('../img/oweek.jpg') top center no-repeat;
-	background-size: cover;
-}
-#events-banner {
-	background: url('../img/events.jpg') center center no-repeat;
-	background-size: cover;
-}
-#ufo-banner {
-	background: url('../img/ufoweek.jpg') center center no-repeat;
-	background-size: cover;
-}
+	#student-banner {
+		background: url('../img/people.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	#oweek-banner {
+		background: url('../img/oweek.jpg') top center no-repeat;
+		background-size: cover;
+	}
+	#events-banner {
+		background: url('../img/events.jpg') center center no-repeat;
+		background-size: cover;
+	}
+	#ufo-banner {
+		background: url('../img/ufoweek.jpg') center center no-repeat;
+		background-size: cover;
+	}
 
 //// announcements
 
 //// students
-// committee
-.comm-group {
-	// @include flex();
-}
-.comm-single {
-	margin-top: 30px;
-}
-
+	// committee
+	.comm-group {
+		// @include flex();
+	}
+	.comm-single {
+		margin-top: 30px;
+	}
+	.comm-heads {
+		td, th {
+			width: 50%;
+		}
+	}
 //// mcteam
 
 //// mcministry

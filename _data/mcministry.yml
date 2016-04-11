@@ -1,22 +1,22 @@
 
--   name: Executive Council (Elects 2016-17)
+-   name: Executive Council 2016-17
     members:
     -   position: President
         name: Madhuri Venkateswar
         year: 2017
-        email: madhuri.s.venkateswar@rice.edu
+        email: mcmurtrypresident@gmail.com
     -   position: Prime Minister
         name: Sam Wittmann
         year: 2018
-        email: sam.wittmann@rice.edu
+        email: murtpm@gmail.com
     -   position: Internal VP
         name: Rohit Kavukuntla
         year: 2018
-        email: rohit.k.kavukuntla@rice.edu
+        email: mcmurtryivp@gmail.com
     -   position: External VP
         name: Walden Pemantle
         year: 2018
-        email: walden.s.pemantle@rice.edu
+        email: mcmurtryevp@gmail.com
     -   position: Secretary
         name: Sydney Garrett
         year: 2019
@@ -28,11 +28,11 @@
     -   position: Treasurer
         name: Dagem Adera
         year: 2018
-        email: dagem.s.adera@rice.edu
+        email: mcmurtrytreasurer@gmail.com
     -   position: Treasurer
         name: Saiesh Kalva
         year: 2019
-        email: saiesh.kalva@rice.edu
+        email: mcmurtrytreasurer@gmail.com
     -   position: Chief Justice
         name: Albert Nabiullin
         year: 2018
@@ -48,49 +48,49 @@
         year: 2018
         email: mlb12@rice.edu
     -   position: 2 Orange
-        name: Lenna Mendoza
-        year: 2018
-        email: lenna.m.mendoza@rice.edu
+        name: TBA
+        year:
+        email:
     -   position: 2 Yellow
-        name: Savion Lee
-        year: 2018
-        email: savion.t.lee@rice.edu
+        name: TBA
+        year:
+        email:
     -   position: 3 Orange
-        name: Jared Elinger
-        year: 2016
-        email: jared.d.elinger@rice.edu
+        name: TBA
+        year:
+        email:
     -   position: 4 Orange
-        name: Charlie Greulich
-        year: 2016
-        email: charlie.greulich@rice.edu
+        name: TBA
+        year:
+        email:
     -   position: 4 Yellow
-        name: Walden Pemantle
-        year: 2018
-        email: walden.s.pemantle@rice.edu
+        name: TBA
+        year:
+        email:
     -   position: 5th Floor
-        name: Anna Thomas
-        year: 2018
-        email: anna.l.thomas@rice.edu
+        name: TBA
+        year:
+        email:
     -   position: Off Campus
-        name: Bryan Bates
-        year: 2016
-        email: bryan.c.bates@rice.edu
+        name: TBA
+        year:
+        email:
     -   position: Off Campus
-        name: Graham Eldridge
-        year: 2016
-        email: kelly.m.tomasevich@rice.edu
+        name: TBA
+        year:
+        email:
     -   position: First Year Rep
-        name: Gina De La Guardia
-        year: 2019
-        email: gyd1@rice.edu
+        name: TBA
+        year:
+        email:
     -   position: First Year Rep
-        name: Naimah Sarwar
-        year: 2019
-        email: njs3@rice.edu
+        name: TBA
+        year:
+        email:
     -   position: First Year Rep
-        name: Nick Killian
-        year: 2019
-        email: njk4@rice.edu
+        name: TBA
+        year:
+        email:
 -   name: McCabinet
     members:
         -   position: Honor Council Rep

@@ -1,66 +1,147 @@
-
-    -   name: Social Committees
+    -   name: External
+        class: external
         committees:
-            -   name: Beer Bike
-                description: Beer Bike. Some say it's the best day of the year. Others say it's the best day of their lives (with the exception of the other Beer Bikes they were fortunate enough to attend). The Beer Bike Committee is in charge of making this monumentous day a reality for all of McMurtry to enjoy. Whether it be assisting the Biking or Chugging Teams, organizing water balloon filling, or rounding people up for an epic jack on… Duncan (of course) – there is something for everyone to do!
+            -   name: Alumni
                 heads:
-                    -   name: Jessica Kelly
-                        email: jessica.kelly@rice.edu
-                    -   name: Lauren Rutherford
-                        email: lauren.m.rutherford@rice.edu
-                    -   name: Maddy Adams
-                        email: maddy.adams@rice.edu
-                    -   name: Rachel Marren
-                        email: rachel.marren@rice.edu
-            -   name: Culturals
-                description: The McMurtry Cultural Committee exists to engage students in the diversity of the Houston community. Currently, Culturals subsidizes ethnic restaurants along the METRO-rail, provides themed study breaks, and is responsible for the college Hookah, amongst other fascinating cultural things. The committee also facilitates opportunities for free events and shows in Houston through a liason with RPC. Here mostly to provide McMurtry with free food and concerts, the Cultural Committee ensures McMurtry is never short of fun things to do both within and beyond the hedges.
+                    -   name: Andrew Grottkau
+                        email: abg4@rice.edu
+                    -   name: Naimah Sarwar
+                        email: njs3@rice.edu
+                    -   name: Amina Williams
+                        email: aaw7@rice.edu
+
+            -   name: Associates
                 heads:
-                    -   name: Kai Holnes
-                        email: kai.c.holnes@rice.edu
-            -   name: External Socials
-                description: External Socials are simply put, very very social. We plan events that feature Murts interacting with other colleges, including McMurtry's public party and Pub night. Our goal is to create activities that every Murt would love to participate in and to find ways to make sure every member of our college feels connected to the community by simply doing FUN STUFF. We are always ready to hear any input that anyone might have, and we cannot wait to make this an amazing year!
+                    -   name: Monika Jain
+                        email: mkj5@rice.edu
+                    -   name: Vicky Yang
+                        email: yy27@rice.edu
+                    -   name: Swathi Rayasam
+                        email: ssr6@rice.edu
+                    -   name: Meghana Chilukuri
+                        email: mvc1@rice.edu
+            -   name: IM Sports
                 heads:
-                    -   name: Anna Zuo
-                        email: anna.zuo@rice.edu
-                    -   name: Ari Brown
-                        email: alb11@rice.edu
-                    -   name: Emma Baker
-                        email: emma.m.baker@rice.edu
-                    -   name: Jeh Bains
-                        email: jeh.s.bains@rice.edu
-            -   name: Internal Socials
-                description: The Internal Socials committee; a group dedicated to fostering McMurtry spirit, bonding, and fun. But more importantly they're dedicated to keeping McMurtry studying as little as possible. The committee puts on various social events throughout the year including, but not limited to board game and movie nights, Fridays in the Quad, social mixer events and McSkate.
+                    -   name: Anna Thomas
+                        email: alt3@rice.edu
+            -   name: Philanthropy
                 heads:
-                    -   name: Kyle Hiller
-                        email: sam.wittman@rice.edu
-                    -   name: Rachel Lin
-                        email: rachel.e.lin@rice.edu
-                    -   name: San Wittman
-                        email: sean.w.horning@rice.edu
-                    -   name: Sean Horning
-                        email: kyle.r.hiller@rice.edu
+                    -   name: Jacqueline Audas
+                        email: jka3@rice.edu
+                    -   name: Mackenzie Kubik
+                        email: mlk10e@rice.edu
+                    -   name: Esther Tang
+                        email: ext1@rice.edu
+            -   name: Varsity Sports Liaison
+                heads:
+                    -   name: Quinn Matthews
+                        email: qkm1@rice.edu
             -   name: Seniors
-                description: The senior committee is responsible for planning and hosting fun events for the senior class throughout the year. Various events include the champagne toast kickoff, wine and cheese tasting, off-campus bar hopping, senior tailgates, and other senior-exclusive events. The goal of the committee is to ensure that all McMurtry seniors truly enjoy their last year with the college family.
                 heads:
-                    -   name: Margeaux Epner
-                        email: margeaux.c.epner@rice.edu
-                    -   name: Muhammad Harirah
-                        email: muhammad.h.harirah@rice.edu
-                    -   name: Lauren Rutherford
-                        email: lauren.m.ruthrford@rice.edu
-    -   name: Facilities Committees
+                    -   name: Makenzie Drukker
+                        email: mkd3@rice.edu
+                    -   name: Raleigh Anderson
+                        email: rsa3@rice.edu
+                    -   name: Annie Nordhauser
+                        email: lan1@rice.edu
+
+    -   name: Internal
+        class: internal
         committees:
             -   name: Amenities
-                description: The Amenities Committee is responsible for the improvement and upkeep of the public spaces (such as the lounges, TV room, game room, outside on 5th Floor, and hang-out area in the Commons) throughout McMurtry. We focus on creating a pleasant atmosphere throughout the college with rooms and amenities all students can utilize. The Amenities Committee strives to implement long-lasting enhancements that can be enjoyed by Murts for years to come!
                 heads:
-                    -   name: Charlie Greulich  
-                        email: charlie.greulich@rice.edu
-                    -   name: JP Griffith   
-                        email: jpgriffith@rice.edu
-                    -   name: Kyle Giubbini 
-                        email: kyle.j.giubbini@rice.edu
+                    -   name: Colin Howman 
+                        email: jch17@rice.edu
+                    -   name: Patrick Kelly 
+                        email: pqk1@rice.edu
+                    -   name: Zach Kortum
+                        email: zk9@rice.edu
+            -   name: Arts
+                heads:
+                    -   name: Shelby Bice
+                        email: slb10@rice.edu
+            -   name: Elections
+                heads:
+                    -   name: Savion Lee
+                        email: stl2@rice.edu
+            -   name: Environmental
+                heads:
+                    -   name: Laura Nicholson
+                        email: lpn1@rice.edu
+                    -   name: Ben Johnson
+                        email: bjj2@rice.edu
+            -   name: Food Reps
+                heads:
+                    -   name: Colin Howman
+                        email: jch17@rice.edu
+                    -   name: Nathalie Philips
+                        email: nap7@rice.edu
+            -   name: Murtchandise
+                heads:
+                    -   name: Sydney Garrett
+                        email: scg5@rice.edu
+            -   name: Tech
+                heads:
+                    -   name: Ashton Drake
+                        email: apd8@rice.edu
+            -   name: Website
+                heads:
+                    -   name: Jeffrey Xiong
+                        email: jx13@rice.edu
 
-
+    -   name: Social
+        class: social
+        committees:
+            -   name: Beer Bike
+                heads:
+                    -   name: Quinn Matthews
+                        email: qkm1@rice.edu
+                    -   name: Kelsi Wicker
+                        email: kmw7@rice.edu
+                    -   name: Naomi Pringle
+                        email: ngp2@rice.edu
+            -   name: Burts
+                heads:
+                    -   name: Michael Robinson
+                        email: mdr8@rice.edu
+                    -   name: Kalina Zhong
+                        email: kqz1@rice.edu
+                    -   name: Othniel Noble Twum
+                        email: ont1@rice.edu
+                    -   name: Quentin Li
+                        email: hl43@rice.edu
+            -   name: Culturals
+                heads:
+                    -   name: Seth Berggren
+                        email: skb4@rice.edu
+                    -   name: Rivkah Gardner-Frolick
+                        email: rpg1@rice.edu
+                    -   name: Miranda Morris
+                        email: mxm2@rice.edu
+                    -   name: Hannah Eareckson
+                        email: hbe1@rice.edu
+                    -   name: Indigo Villanueva
+                        email: ihv1@rice.edu
+            -   name: External Socials
+                heads:
+                    -   name: Eunice Chen
+                        email: yc74@rice.edu
+                    -   name: Ben Rieden
+                        email: bwr2@rice.edu
+                    -   name: Quinn Matthews
+                        email: qkm1@rice.edu
+                    -   name: Gina de La Guardia
+                        email: gyd1@rice.edu
+            -   name: Internal Socials
+                heads:
+                    -   name: Nick Killian
+                        email: njk4@rice.edu
+                    -   name: Katie Mackall
+                        email: krm8@rice.edu
+                    -   name: Eli Badgio
+                        email: eb27@rice.edu
+                    -   name: Cass Mosley
+                        email: csm3@rice.edu
 
 
 
