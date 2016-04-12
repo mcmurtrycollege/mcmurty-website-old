@@ -1,35 +1,49 @@
 chief:
-    name: Kelly Tomasevich
-    year: 2016
-    phone: (203) 848-9256
-    email: kmt6@rice.edu
+    name: Albert Nabiullin
+    year: 2018
+    phone: (601) 602-5025
+    location: 2O
+    email: an22@rice.edu
 
 associates:
--   name: Matt Adrianowycz
+-   name: Charlie Paul
+    year: 2019
+    phone: 
+    location: 2Y
+    email: 
+-   name: Tyler Cox
     year: 2018
-    phone: (440) 391-9606
-    email: maa14@rice.edu
+    phone: 
+    location: 2O
+    email: 
+-   name: Patrick Kelly
+    year: 2019
+    phone:  
+    location: 3Y
+    email: go4@rice.edu
+-   name: Zoe Punske
+    year: 2018
+    phone:
+    location: 3O
+    email:
+-   name: Eli Badgio
+    year: 2019
+    phone:
+    location: 4O
+    email:
+-   name: Gustavo Chavez
+    year: 2017
+    phone:  
+    location: 5B
+    email:
 -   name: Andrew Brooks
     year: 2018
     phone: (859) 396-9898
+    location: 5C
     email: agb3@rice.edu
--   name: Stephen Hannan
-    year: 2018
-    phone: (707) 217-3687  
-    email: sgh2@rice.edu
--   name: Albert Nabiullin
-    year: 2018
-    phone: (601) 602-5025  
-    email: an22@rice.edu
--   name: Laura Nicholson
-    year: 2018
-    phone: (651) 492-0639  
-    email: lpn1@rice.edu
--   name: Giray Ozseker
-    year: 2016
-    phone: (832) 691-6960  
-    email: go4@rice.edu
--   name: Rachel Resnick
+-   name: Raleigh Anderson
     year: 2017
-    phone: (201) 230-0087  
-    email: rdr2@rice.edu
+    phone: 
+    location: OC
+    email: rsa3@rice.edu
+

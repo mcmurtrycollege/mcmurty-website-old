@@ -1,5 +1,5 @@
 # default
-highlighter: pygments
+highlighter: rouge
 permalink: /:categories/:title
 post_dirs: false
 

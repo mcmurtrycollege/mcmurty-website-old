@@ -2,3 +2,48 @@
 layout: people
 title: Academic Fellows
 ---
+<section class='office'>
+	<!-- <h2> Academic Fellows </h2> -->
+	<div class="section-text">
+		<p> Fellows are upperclassmen who were selected based on proven academic achievement and demonstrated willingness to help fellow students. As part of their charge, Fellows provide free academic assistance on a regular basis through advertised review sessions, “office hours” in the college commons, and individual tutoring by request. </p>
+	</div>
+	<table class='officers'>
+		<tr class='table-heading'>
+			<th> Name </th>
+			<th> Email </th>
+			<th> Major(s) </th>
+			<th> Subject(s) </th>
+		</tr>
+		{% assign headfellows = site.data.academics.head-fellows %}
+		{% for headfellow in headfellows %}
+		<tr class='table-data'>
+			<td> {{ headfellow.name }} * </td>
+			<td> <a href='mailto:{{ headfellow.email }}'> {{ headfellow.email }} </a> </td>
+			<td> {{ headfellow.major }} </td>
+			<td> {{ headfellow.subjects }} </td>
+		</tr>
+		{% endfor %}
+		{% assign fellows = site.data.academics.fellows %}
+		{% for fellow in fellows %}
+		<tr class='table-data'>
+			<td> {{ fellow.name }} </td>
+			<td> <a href='mailto:{{ fellow.email }}'> {{ fellow.email }} </a> </td>
+			<td> {{ fellow.major }} </td>
+			<td> {{ fellow.subjects }} </td>
+		</tr>
+		{% endfor %}
+	</table>
+		<!-- {% assign associates = site.data.court.associates %}
+		{% for justice in associates %}
+			<tr class='table-data' style='vertical-align: top;'>
+				{% if associates.first.name == justice.name %}
+					<th rowspan= {{ associates | size }} > Associate Justices </th>
+				{% endif %}
+				<td> {{ justice.name }} </td>
+				<td> {{ justice.phone }} </td>
+				<td> <a href='mailto:{{ justice.email }}'> {{ justice.email }} </a> </td>
+				<td> {{ justice.year }} </td>
+			</tr>
+		{% endfor %} -->
+	
+</section>

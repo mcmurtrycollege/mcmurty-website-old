@@ -44,10 +44,10 @@ p {
 	font-size: 14px;
 	a {
 		font-family: 'Quattrocento', serif;
-		color: $color-dark-purple;
+		color: $color-purple;
 		font-size: 14px;
 		&:hover {
-			color: $color-purple;
+			color: $color-teal;
 		}
 	}
 }
@@ -111,8 +111,15 @@ section {
 		text-align: center;	
     }
 
-    .section-text{
+    .section-text {
 		text-align: justify;
+	}
+	.section-list {
+		font-family: 'Quattrocento', serif;
+		color: black;
+		line-height: 150%;
+		font-size: 14px;
+		list-style-type: circle;
 	}
 
 	@media (max-device-width: 920), (max-width: 920px) {
@@ -125,7 +132,7 @@ section {
 }
 .banner {
 	width: 100%;
-	height: 450px;
+	height: 350px;
 	position: relative;
 	bottom: 60px;
 	@include flex();

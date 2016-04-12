@@ -39,7 +39,7 @@
         email: albert.nabiullin@rice.edu
     -   position: SA Senator
         name: Mahdi Fariss
-        year: 2018
+        year: 2019
         email: mahdi.z.fariss@rice.edu
 -   name: People's Council
     members:
@@ -47,38 +47,42 @@
         name: Madison Blattel
         year: 2018
         email: mlb12@rice.edu
-    -   position: 2 Orange
-        name: TBA
-        year:
-        email:
     -   position: 2 Yellow
-        name: TBA
-        year:
-        email:
+        name: Leah Sherman
+        year: 2018
+        email: lbs3@rice.edu
+    -   position: 2 Orange
+        name: Jasmine Lin
+        year: 2018
+        email: jl118@rice.edu
+    -   position: 3 Yellow
+        name: Victoria Yuan
+        year: 2017
+        email: vy1@rice.edu
     -   position: 3 Orange
-        name: TBA
-        year:
-        email:
-    -   position: 4 Orange
-        name: TBA
-        year:
-        email:
+        name: Kelsi Wicker
+        year: 2018
+        email: kmw7@rice.edu
     -   position: 4 Yellow
-        name: TBA
-        year:
-        email:
+        name: Rachel Resnick
+        year: 2017
+        email: rdr2@rice.edu
+    -   position: 4 Orange
+        name: Nick Killian
+        year: 2019
+        email: njk4@rice.edu
     -   position: 5th Floor
-        name: TBA
-        year:
-        email:
+        name: Latifat Alabi
+        year: 2017
+        email: laa6@rice.edu
     -   position: Off Campus
-        name: TBA
-        year:
-        email:
+        name: Laura Ruthig-Poon
+        year: 2017
+        email: lwr1@rice.edu
     -   position: Off Campus
-        name: TBA
-        year:
-        email:
+        name: Lisha Huang
+        year: 2017
+        email: lh18@rice.edu
     -   position: First Year Rep
         name: TBA
         year:
@@ -91,6 +95,10 @@
         name: TBA
         year:
         email:
+    -   position: RPC Rep
+        name: Laura Ruthig-Poon
+        year: 2017
+        email: lwr1@rice.edu
 -   name: McCabinet
     members:
         -   position: Honor Council Rep
@@ -98,23 +106,19 @@
             year: 2018
             email: aag6@rice.edu
         -   position: Parliamentarian
-            name: Dorin Azerad
-            year: 2016
-            email:
-        -   position: Historian
-            name: Jessica Kelly
-            year: 2016
-            email:
+            name: Carlin Cherry
+            year: 2019
+            email: cec14@rice.edu
         -   position: Historian
             name: Isabella Yang
             year: 2017
-            email: 
+            email: yy28@rice.edu
         -   position: Historian
             name: Jeffrey Xiong
             year: 2018
-            email:
+            email: jx13@rice.edu
         -   position: Historian
             name: Kelsi Wicker
             year: 2018
-            email:
+            email: kmw7@rice.edu
 

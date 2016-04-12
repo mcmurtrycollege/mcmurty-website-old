@@ -1,5 +1,89 @@
 paas:
--   name:
+  - name:
     majors:
     email:
-    year:   
+    year:
+
+head-fellows:
+  - name: Nadia Ansari
+    email: na25@rice.edu
+    major: Biological Sciences
+    subjects: CHEM 211/212
+  - name: Emily Lisa
+    email: ek11@rice.edu
+    major: Computer Science, Statistics
+    subjects: STAT
+  - name: Yin Ng
+    email: yn11@rice.edu
+    major: Kinesiology
+    subjects: CHEM 121/122
+    
+fellows:
+  - name: Matthew Adrianowycz
+    email: maa14@rice.edu
+    major: Chemistry, Computational and Applied Math minor
+    subjects: CAAM
+  - name: Seth Berggren
+    email: skb4@rice.edu
+    major: Computational and Applied Math, Mathematical Economic Analysis
+    subjects: MATH
+  - name: Evan Biggers
+    email: egb5@rice.edu
+    major: Chemical Engineering
+    subjects: CHEM 211/212
+  - name: Colton Cox
+    email: clc8@rice.edu
+    major: Sociology, Policy Studies, Jewish Studies minor
+    subjects: SOCI, Essays
+  - name: Mishi Jain
+    email: mpj2@rice.edu
+    major: Political Science, Policy Studies
+    subjects: POLI, Essays
+  - name: Lenna Mendoza
+    email: lmm10@rice.edu
+    major: English
+    subjects: FWIS, Essays
+  - name: Albert Nabiullin
+    email: an22@rice.edu
+    major: Mathematical Economic Analysis
+    subjects: ECON
+  - name: Jodie Nghiem
+    email: jrn1@rice.edu
+    major: Ecology and Evolutionary Biology, French Studies
+    subjects: EBIO, FREN
+  - name: Alex Owens
+    email: mao2@rice.edu
+    major: Mechanical Engineering
+    subjects: PHYS 101/102
+  - name: Walden Pemantle
+    email: wsp2@rice.edu
+    major: English, History, Business minor
+    subjects: HIST, Essays
+  - name: Rachel Resnick
+    email: rdr2@rice.edu
+    major: Computer Science
+    subjects: MATH, COMP
+  - name: Riley Smith
+    email: res7@rice.edu
+    major: English, Political Science
+    subjects: FWIS, Essays
+  - name: Grant Stec
+    email: gjs3@rice.edu
+    major: Chemistry
+    subjects: CHEM 211/212
+  - name: Anthony Tzen
+    email: ayt1@rice.edu
+    major: Computer Science, Biochemistry minor
+    subjects: COMP
+  - name: Shannon Wan
+    email: sw34@rice.edu
+    major: Biological Sciences
+    subjects: BIOC 201
+  - name: Kelsi Wicker
+    email: kmw7@rice.edu
+    major: Mechanical Engineering, Computational and Applied Math minor
+    subjects: CAAM
+  - name: Isabella Yang
+    email: yy28@rice.edu
+    major: Bioengineering
+    subjects: PHYS 101/102
