@@ -78,7 +78,7 @@ tr {
 section {
   width: 100%;
   height: auto;
-  padding: 40px 20% 40px 20%;
+  padding: 40px 15% 40px 15%;
   position: relative;
   bottom: 60px;
   text-align: center;
@@ -272,10 +272,6 @@ footer {
   margin: 0 auto;
   margin-bottom: 25px; }
 
-#home-banner {
-  background: url("../img/mcmurtry-spring.jpg") center center no-repeat;
-  background-size: cover; }
-
 #home-intro {
   background-color: #E2DCEB; }
 
@@ -375,6 +371,10 @@ footer {
     .home-post-entry a:hover {
       color: #44CCFF; }
 
+#home-banner {
+  background: url("../img/mcmurtry-spring.jpg") center center no-repeat;
+  background-size: cover; }
+
 #about-banner {
   background: url("../img/about.jpg") top center no-repeat;
   background-size: cover; }
@@ -395,7 +395,7 @@ footer {
   background: url("../img/ufoweek.jpg") center center no-repeat;
   background-size: cover; }
 
-#reserve-banner {
+#reserve-banner, #resources-banner {
   background: url("../img/reserve.jpg") center center no-repeat;
   background-size: cover; }
 

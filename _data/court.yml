@@ -8,34 +8,34 @@ chief:
 associates:
 -   name: Charlie Paul
     year: 2019
-    phone: 
+    phone: (203) 644-0931
     location: 2Y
-    email: 
+    email: clp9@rice.edu
 -   name: Tyler Cox
     year: 2018
-    phone: 
+    phone: (281) 216-0427
     location: 2O
-    email: 
+    email: trc2@rice.edu
 -   name: Patrick Kelly
     year: 2019
-    phone:  
+    phone: (832) 729-9287
     location: 3Y
-    email: 
+    email: pqk1@rice.edu
 -   name: Zoe Punske
     year: 2018
-    phone:
+    phone: (512) 785-2282
     location: 3O
-    email:
+    email: zep2@rice.edu
 -   name: Eli Badgio
     year: 2019
-    phone:
+    phone: (610) 256-1767
     location: 4O
-    email:
+    email: eb27@rice.edu
 -   name: Gustavo Chavez
     year: 2017
-    phone:  
+    phone: (813) 812-1163
     location: 5B
-    email:
+    email: gac6@rice.edu
 -   name: Andrew Brooks
     year: 2018
     phone: (859) 396-9898
@@ -43,7 +43,7 @@ associates:
     email: agb3@rice.edu
 -   name: Raleigh Anderson
     year: 2017
-    phone: 
+    phone: (806) 224-5705
     location: OC
     email: rsa3@rice.edu
 
