@@ -1,14 +1,142 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div id='oweek-banner' class='text-banner banner'>
-	
-	<h1> {{ page.title }} </h1>
+<!-- 
+	McMurtry is Bananas.
+	Copyright McMurtry College
 
-</div>
+		- Patrick Dunphy '16
+		- Jeffrey Xiong '18
+-->
 
-{{content}}
+<head>
+    <title> McMurtry College &middot; {{page.title}}</title>
+    <!-- meta -->
+    <meta charset='UTF-8'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
+    <!-- stylin' -->
+    <link rel='stylesheet' type='text/css' href='/assets/css/styles.css'>
+    <link rel='shortcut icon' href='/assets/img/favicon.ico'>
+    <!-- facebook -->
+    <meta property='og:title' content='McMurtry College'>
+    <meta property='og:type' content='website'>
+    <meta property='og:image' content='http://mcmurtry.rice.edu/assets/img/mcmurtry-fb.png'>
+    <meta property='og:image:url' content='http://mcmurtry.rice.edu/assets/img/mcmurtry-fb.png'>
+    <meta property='og:image:width' content='470'>
+    <meta property='og:image:width' content='190'>
+    <meta property='og:url' content='http://mcmurtry.rice.edu/'>
+    <meta property='og:description' content='McMurtry College: the best residential college of Rice University. Est. 2009'>
+    <!-- twitter -->
+    <meta name='twitter:card' content='summary'>
+    <meta name='twitter:site' content='@hackrice'>
+    <meta name='twitter:title' content='HackRice 2016'>
+    <meta name='twitter:description' content='McMurtry College: the best residential college of Rice University. Est. 2009'>
+    <meta name='twitter:image' content='https://mcmurtry.rice.edu/assets/img/mcmurtry-twtr.png'>
+    <meta name='twitter:image:width' content='512'>
+    <meta name='twitter:image:height' content='512'>
+</head>
+
+<body>
+    <div class="ufo-back"><a href="/">GO HOME</a></div>
+    <div class="ufo-background">
+        <svg id="animate-canvas" style="width:100%; height:300px;">   
+            <g id="animate-ufo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="animate-ufo-body">
+                    <ellipse stroke="#979797" fill="#999999" cx="85.2376727" cy="27" rx="46.2376727" ry="27"></ellipse>
+                    <ellipse fill="#FFFFFF" cx="85" cy="36" rx="85" ry="27"></ellipse>
+                    <ellipse fill="#3F3F3F" cx="85" cy="39" rx="85" ry="27"></ellipse>
+                    <path d="M85,71 C99.3594035,71 111,67.6421356 111,63.5 C111,59.3578644 99.3594035,56 85,56 C70.6405965,56 59,59.3578644 59,63.5 C59,67.6421356 70.6405965,71 85,71 Z" id="Oval-5" fill="#656565"></path>
+                    <path d="M105.801904,68 C101.058431,69.8216701 93.5062527,71 85,71 C76.4937473,71 68.9415687,69.8216701 64.1980958,68 C68.9415687,66.1783299 76.4937473,65 85,65 C93.5062527,65 101.058431,66.1783299 105.801904,68 Z" fill="#3F3F3F"></path>
+                    <ellipse fill="#86EEFF" cx="85.3333333" cy="66.25" rx="17.3333333" ry="3.25"></ellipse>
+                    <path d="M101.09859,69.927121 L100.670044,67 L69.4660379,67 L69,70.0734395 C73.377699,71.2819355 78.8518244,72 84.7910737,72 C90.9662413,72 96.6385999,71.2237567 101.09859,69.927121 Z" fill="#86EEFF"></path>
+                </g>
+                <path id="animate-ufo-beam" d="M69,68 L101,68 L135,230 C135,230 109.794132,239.959335 85,239.959335 C60.2058683,239.959335 35,230 35,230 L69,68 Z" fill-opacity="0.7" fill="#86EEFF"></path>
+            </g>
+        </svg>
+    </div>
+
+	<div id='ufo-banner' class='header'>
+		<h1>UFO-Week</h1>
+	</div>
+    
+    <!-- earth -->
+    <div id="animate-earth" class="ufo-animate">
+        <svg width="400px" height="400px" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <defs>
+                <path d="M0,200 C0,310.457 89.543,400 200,400 C310.457,400 400,310.457 400,200 C400,89.543 310.457,0 200,0 C89.543,0 0,89.543 0,200 L0,200 Z" id="path-1"></path>
+                <path d="M123.596,62.591 C101.955,72.07 110.404,91.816 85.707,100.435 L30.724,95 C30.724,95 30.161,95.33 29.17,95.939 C18.743,113.019 10.806,131.785 5.863,151.734 C22.413,164.255 44.645,177.85 31.168,202.442 C13.652,234.407 50.93,286.079 50.93,286.079 C50.93,286.079 78.886,293.239 71.776,309.397 C64.665,325.554 92.377,321.995 92.377,321.995 C92.377,321.995 75.336,236.918 92.28,251.889 C109.224,266.86 137.926,335.686 115.103,347.049 C103.454,352.849 83.912,350.681 68.352,350.565 C103.527,381.346 149.586,400 200,400 C216.891,400 233.292,397.906 248.959,393.964 C254.846,385.492 259.85,376.978 260.585,371.659 C262.498,357.804 275.15,364.526 238.108,346.316 C201.066,328.106 175.617,341.294 158.973,321.706 C142.329,302.117 148.303,271.327 157.044,250.907 C165.785,230.486 187.07,222.963 198.54,229.271 C210.01,235.577 193.11,276.931 206.001,277.827 C218.893,278.725 243.938,232.43 243.938,232.43 C243.938,232.43 271.773,239.974 285.831,222.946 C299.887,205.918 306.385,191.246 297.686,167.319 C288.988,143.391 278.477,151.714 253.075,132.844 C227.673,113.973 218.141,110.269 201.798,96.089 C185.454,81.909 193.448,71.733 172.108,62.591 C161.341,57.979 154.6,55.608 147.781,55.608 C141.086,55.608 134.316,57.895 123.596,62.591 L123.596,62.591 Z" id="path-3"></path>
+                <path d="M217.452,5.978 C198.777,22.792 192.038,33.721 224.694,60.32 C257.351,86.918 289.722,69.964 322.562,91.59 C355.402,113.216 341.27,143.637 368.877,155.269 C376.694,158.562 386.096,158.984 395.56,157.896 C377.855,75.267 309.109,11.572 223.927,1.417 C221.251,3.007 219.055,4.536 217.452,5.978 L217.452,5.978 Z" id="path-5"></path>
+                <path d="M236.283,239.234 C309.832,264.003 412.685,243.419 352.205,280.708 C320.471,300.272 296.947,290.471 279.65,280.671 C263.98,271.792 253.42,262.913 246.494,275.867 C236.368,294.809 278.108,342.951 304.509,370.555 C353.236,340.634 388.159,290.417 397.506,231.675 L397.422,231.603 C397.422,231.603 318.331,225.827 266.366,225.827 C228.815,225.827 205.43,228.843 236.283,239.234 L236.283,239.234 Z" id="path-7"></path>
+                <path d="M70.436,47.636 C27.338,84.321 0,138.968 0,200 C0,229.233 6.272,256.999 17.542,282.03 C65.423,277.191 141.525,267.289 172.039,251.109 C194.35,239.278 173.454,239.412 140.236,239.545 C104.89,239.687 55.592,239.828 29.558,225.554 C-0.564,209.039 62.406,209.884 144.98,210.728 C200.845,211.298 265.682,211.87 316.736,207.065 C443.249,195.159 190.222,173.225 190.222,173.225 C190.222,173.225 65.631,148.063 292.751,148.063 C519.87,148.063 228.377,94.293 228.377,94.293 C228.377,94.293 48.005,84.875 161.961,58.359 C206.603,47.971 190.376,44.812 154.124,44.812 C130.875,44.812 99.39,46.111 70.436,47.636 L70.436,47.636 Z" id="path-9"></path>
+            </defs>
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <polygon id="Fill-1" fill="#5293CE" mask="url(#mask-2)" points="-5 405 405 405 405 -5 -5 -5"></polygon>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-5"></g>
+                <polygon id="Fill-4" fill="#278167" mask="url(#mask-4)" points="0.863 405 306.622 405 306.622 50.608 0.863 50.608"></polygon>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="Clip-8"></g>
+                <polygon id="Fill-7" fill="#278167" mask="url(#mask-6)" points="196.824 163.433 400.561 163.433 400.561 -3.583 196.824 -3.583"></polygon>
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <g id="Clip-11"></g>
+                <polygon id="Fill-10" fill-opacity="0.7" fill="#FEFEFE" mask="url(#mask-8)" points="217.013 375.555 402.506 375.555 402.506 220.827 217.013 220.827"></polygon>
+                <mask id="mask-10" fill="white">
+                    <use xlink:href="#path-9"></use>
+                </mask>
+                <g id="Clip-14"></g>
+                <polygon id="Fill-13" fill-opacity="0.7" fill="#FEFEFE" mask="url(#mask-10)" points="-5 287.03 384.337 287.03 384.337 39.811 -5 39.811"></polygon>
+            </g>
+        </svg>
+    </div>
+
+	{% include oweek-nav.html %}
+
+	<!-- placeholder -->
+	<div id='placeholder'></div>
+
+	{{ content }}
+
+    <!-- crest -->
+    <div id='footer-crest'>
+        <img src='/assets/img/mcm-crest.svg' alt='McMurtry Crest' height='150'>
+    </div>
+    
+    <!-- footer -->
+    <footer>
+        <br><br>
+        <div id='footer-address'>
+            <span> McMurtry College &middot; MS 761 &middot; <a href='http://www.rice.edu/'>Rice University</a></span><br>
+            <span> 1605 Rice Blvd. &middot; Houston, TX 77005 </span><br>
+            <span> Phone: (713) 348-4583 &middot; Fax: (713) 348-3135 </span>
+        </div>
+        <div id='footer-copyright'>
+            <span>Copyright &copy; McMurtry College, 2016</span>
+        </div>
+    </footer>
+
+	<!-- scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="/assets/js/snap.svg.js"></script>
+    <script src="/assets/js/scripts.js"></script>
+    <script src="/assets/js/oweek.js"></script>
+
+</body>
+
+</html>
 
 
 

@@ -134,16 +134,12 @@
 	}
 
 //// banners
-	#home-banner {
+	#home-banner, #mcteam-banner, #student-banner {
 		background: url('../img/mcmurtry-spring.jpg') center center no-repeat;
 		background-size: cover;
 	}
 	#about-banner {
 		background: url('../img/about.jpg') top center no-repeat;
-		background-size: cover;
-	}
-	#student-banner {
-		background: url('../img/people.jpg') center center no-repeat;
 		background-size: cover;
 	}
 	#oweek-banner {
@@ -155,8 +151,14 @@
 		background-size: cover;
 	}
 	#ufo-banner {
-		background: url('../img/ufoweek.jpg') center center no-repeat;
+		// background: url('../img/ufoweek.jpg') center center no-repeat;
+		background-color: transparent;
 		background-size: cover;
+		height: 300px;
+
+		h1 {
+			font-size: 42px;
+		}
 	}
 	#reserve-banner, #resources-banner {
 		background: url('../img/reserve.jpg') center center no-repeat;
@@ -178,11 +180,170 @@
 		}
 	}
 //// mcteam
+	.mcteam-bio {
+		width: 20%;
+		height: 500px;
+		padding: 0;
+		margin: 0;
+		display: inline-block;
+	}
+	// #mc-bio {
+	// 	background: url('../img/margaret-chris.jpg') center center no-repeat;
+	// }
+	// #ba-bio {
+	// 	background: url('../img/margaret-chris.jpg') center center no-repeat;
+	// }
+	// #so-bio {
+	// 	background: url('../img/simon-ozge.jpg') center center no-repeat;
+	// }
+	// #bm-bio {
+	// 	background: url('../img/brad-marla.jpg') center center no-repeat;
+	// }
+	// #jc-bio {
+	// 	background: url('../img/margaret-chris.jpg') center center no-repeat;
+	// }
 
+	.fellow-text {
+		text-align: justify;
+	}
+	.side-menu {
+		display: block;
+		width: 25%;
+		height: 1000px;
+		padding: 20px;
+		position: absolute;
+		right: 0px;
+		top: 450px;
+		background-color: $color-purple;
+		@include flex();
+		@include flex-justify-content(center);
+	    @include box-sizing(border-box);
+
+	    div {
+	    	width: 90%;
+	    	height: 300px;
+	    	@include flex();
+	    	@include flex-direction(column);
+			@include flex-align(center);
+		    @include flex-justify-content(space-around);
+	    }
+	    a {
+	    	font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			text-transform: uppercase;
+			display: block;
+			width: 100%;
+			padding: 10px;
+			text-align: left;
+			@include transition(0.25s, ease-in-out);
+			&:link, &:visited {
+				color: white;
+			}
+			&:hover {
+				color: $color-dark-purple;
+			}
+	    }
+	}
+	.fellow-bio {
+		width: 70%;
+		display: none;
+		text-align: right;
+		padding: 5%;
+		h2 {
+			width: auto;
+			border: none;
+			text-align: right;
+			font-family: 'Quattrocento', serif;
+			text-transform: none;
+			font-size: 24px;
+			color: black;
+			padding: 0;
+		}
+	}
+	.link-masters {
+		color: $color-dark-purple;
+	}
+	.selected {
+		display: block;
+		position: relative;
+	}
 //// mcministry
 
 //// oweek
+	.ufo {
+		top: 0px;
+	}
+	.ufo-back {
+		display: block;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		margin: 7px;
+		z-index: 5;
+		a {
+			display: block;
+			color: white;
+			padding: 7px;
+			&:hover {
+				color: $color-purple;
+			}
+		}
+	}
+	.ufo-animate {
+		display: block;
+		width: 100%;
+		height: 300px;
+		position: absolute;
+		top: 0px;
+		z-index: -1;
+		@include flex();
+		@include flex-justify-content(center);
+	}
+	.ufo-background {
+		width: 100%;
+		height: 300px;
+		background-color: black;
+		position: absolute;
+		top: 0px;
+		z-index: -2;
+	}
+	#animate-ufo {
+		svg {
+			width: 100px;
+			position: absolute;
+			top: 50px;
+			left: 0;
+			// margin-top: 80px;
+			// margin-right: 250px;
+			// @include rotate2D(-30deg);
+		}
+	}
+	#animate-earth {
+		svg {
+			width: 300px;
+			height: 300px;
+			margin-top: 200px;
+			-webkit-animation-name: spin;
+			animation-name: spin;
+			-webkit-animation-duration: 30s;
+			animation-duration: 30s;
+			-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
+			transform-origin: 50% 50%;
+		}
+	}
+	.ufo {
+		background-color: white;
+	}
 
+	@keyframes spin {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
 //// resources
 
 //// contact

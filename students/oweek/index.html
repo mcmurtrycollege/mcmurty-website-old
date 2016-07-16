@@ -1,0 +1,25 @@
+---
+layout: default
+title: O-Week Advisors
+---
+
+<div id='oweek-banner' class='banner'>
+	<h1> {{ page.title }} </h1>
+</div>
+
+<section class='office'>
+	<table class='officers'>
+		<tr class='table-heading'>
+			<th> Name </th>
+			<th> Major </th>
+			<th> Year </th>
+		</tr>
+		{% for advisor in site.data.oweek %}
+			<tr class='table-data'>
+				<th> {{ advisor.name }} </th>
+				<td> {{ advisor.major }} </td>
+				<td> {{ advisor.year }} </td>
+			</tr>
+		{% endfor %}
+	</table>
+</section>

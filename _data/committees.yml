@@ -1,147 +1,147 @@
-    -   name: External
-        class: external
-        committees:
-            -   name: Alumni
-                heads:
-                    -   name: Andrew Grottkau
-                        email: abg4@rice.edu
-                    -   name: Naimah Sarwar
-                        email: njs3@rice.edu
-                    -   name: Amina Williams
-                        email: aaw7@rice.edu
+-   name: External
+    class: external
+    committees:
+        -   name: Alumni
+            heads:
+                -   name: Andrew Grottkau
+                    email: abg4@rice.edu
+                -   name: Naimah Sarwar
+                    email: njs3@rice.edu
+                -   name: Amina Williams
+                    email: aaw7@rice.edu
 
-            -   name: Associates
-                heads:
-                    -   name: Monika Jain
-                        email: mkj5@rice.edu
-                    -   name: Vicky Yang
-                        email: yy27@rice.edu
-                    -   name: Swathi Rayasam
-                        email: ssr6@rice.edu
-                    -   name: Meghana Chilukuri
-                        email: mvc1@rice.edu
-            -   name: IM Sports
-                heads:
-                    -   name: Anna Thomas
-                        email: alt3@rice.edu
-            -   name: Philanthropy
-                heads:
-                    -   name: Jacqueline Audas
-                        email: jka3@rice.edu
-                    -   name: Mackenzie Kubik
-                        email: mlk10e@rice.edu
-                    -   name: Esther Tang
-                        email: ext1@rice.edu
-            -   name: Varsity Sports Liaison
-                heads:
-                    -   name: Quinn Matthews
-                        email: qkm1@rice.edu
-            -   name: Seniors
-                heads:
-                    -   name: Makenzie Drukker
-                        email: mkd3@rice.edu
-                    -   name: Raleigh Anderson
-                        email: rsa3@rice.edu
-                    -   name: Annie Nordhauser
-                        email: lan1@rice.edu
+        -   name: Associates
+            heads:
+                -   name: Monika Jain
+                    email: mkj5@rice.edu
+                -   name: Vicky Yang
+                    email: yy27@rice.edu
+                -   name: Swathi Rayasam
+                    email: ssr6@rice.edu
+                -   name: Meghana Chilukuri
+                    email: mvc1@rice.edu
+        -   name: IM Sports
+            heads:
+                -   name: Anna Thomas
+                    email: alt3@rice.edu
+        -   name: Philanthropy
+            heads:
+                -   name: Jacqueline Audas
+                    email: jka3@rice.edu
+                -   name: Mackenzie Kubik
+                    email: mlk10e@rice.edu
+                -   name: Esther Tang
+                    email: ext1@rice.edu
+        -   name: Varsity Sports Liaison
+            heads:
+                -   name: Quinn Matthews
+                    email: qkm1@rice.edu
+        -   name: Seniors
+            heads:
+                -   name: Makenzie Drukker
+                    email: mkd3@rice.edu
+                -   name: Raleigh Anderson
+                    email: rsa3@rice.edu
+                -   name: Annie Nordhauser
+                    email: lan1@rice.edu
 
-    -   name: Internal
-        class: internal
-        committees:
-            -   name: Amenities
-                heads:
-                    -   name: Colin Howman 
-                        email: jch17@rice.edu
-                    -   name: Patrick Kelly 
-                        email: pqk1@rice.edu
-                    -   name: Zach Kortum
-                        email: zk9@rice.edu
-            -   name: Arts
-                heads:
-                    -   name: Shelby Bice
-                        email: slb10@rice.edu
-            -   name: Elections
-                heads:
-                    -   name: Savion Lee
-                        email: stl2@rice.edu
-            -   name: Environmental
-                heads:
-                    -   name: Laura Nicholson
-                        email: lpn1@rice.edu
-                    -   name: Ben Johnson
-                        email: bjj2@rice.edu
-            -   name: Food Reps
-                heads:
-                    -   name: Colin Howman
-                        email: jch17@rice.edu
-                    -   name: Nathalie Philips
-                        email: nap7@rice.edu
-            -   name: Murtchandise
-                heads:
-                    -   name: Sydney Garrett
-                        email: scg5@rice.edu
-            -   name: Tech
-                heads:
-                    -   name: Ashton Drake
-                        email: apd8@rice.edu
-            -   name: Website
-                heads:
-                    -   name: Jeffrey Xiong
-                        email: jx13@rice.edu
+-   name: Internal
+    class: internal
+    committees:
+        -   name: Amenities
+            heads:
+                -   name: Colin Howman 
+                    email: jch17@rice.edu
+                -   name: Patrick Kelly 
+                    email: pqk1@rice.edu
+                -   name: Zach Kortum
+                    email: zk9@rice.edu
+        -   name: Arts
+            heads:
+                -   name: Shelby Bice
+                    email: slb10@rice.edu
+        -   name: Elections
+            heads:
+                -   name: Savion Lee
+                    email: stl2@rice.edu
+        -   name: Environmental
+            heads:
+                -   name: Laura Nicholson
+                    email: lpn1@rice.edu
+                -   name: Ben Johnson
+                    email: bjj2@rice.edu
+        -   name: Food Reps
+            heads:
+                -   name: Colin Howman
+                    email: jch17@rice.edu
+                -   name: Nathalie Philips
+                    email: nap7@rice.edu
+        -   name: Murtchandise
+            heads:
+                -   name: Sydney Garrett
+                    email: scg5@rice.edu
+        -   name: Tech
+            heads:
+                -   name: Ashton Drake
+                    email: apd8@rice.edu
+        -   name: Website
+            heads:
+                -   name: Jeffrey Xiong
+                    email: jx13@rice.edu
 
-    -   name: Social
-        class: social
-        committees:
-            -   name: Beer Bike
-                heads:
-                    -   name: Quinn Matthews
-                        email: qkm1@rice.edu
-                    -   name: Kelsi Wicker
-                        email: kmw7@rice.edu
-                    -   name: Naomi Pringle
-                        email: ngp2@rice.edu
-            -   name: Burts
-                heads:
-                    -   name: Michael Robinson
-                        email: mdr8@rice.edu
-                    -   name: Kalina Zhong
-                        email: kqz1@rice.edu
-                    -   name: Othniel Noble Twum
-                        email: ont1@rice.edu
-                    -   name: Quentin Li
-                        email: hl43@rice.edu
-            -   name: Culturals
-                heads:
-                    -   name: Seth Berggren
-                        email: skb4@rice.edu
-                    -   name: Rivkah Gardner-Frolick
-                        email: rpg1@rice.edu
-                    -   name: Miranda Morris
-                        email: mxm2@rice.edu
-                    -   name: Hannah Eareckson
-                        email: hbe1@rice.edu
-                    -   name: Indigo Villanueva
-                        email: ihv1@rice.edu
-            -   name: External Socials
-                heads:
-                    -   name: Eunice Chen
-                        email: yc74@rice.edu
-                    -   name: Ben Rieden
-                        email: bwr2@rice.edu
-                    -   name: Quinn Matthews
-                        email: qkm1@rice.edu
-                    -   name: Gina de La Guardia
-                        email: gyd1@rice.edu
-            -   name: Internal Socials
-                heads:
-                    -   name: Nick Killian
-                        email: njk4@rice.edu
-                    -   name: Katie Mackall
-                        email: krm8@rice.edu
-                    -   name: Eli Badgio
-                        email: eb27@rice.edu
-                    -   name: Cass Mosley
-                        email: csm3@rice.edu
+-   name: Social
+    class: social
+    committees:
+        -   name: Beer Bike
+            heads:
+                -   name: Quinn Matthews
+                    email: qkm1@rice.edu
+                -   name: Kelsi Wicker
+                    email: kmw7@rice.edu
+                -   name: Naomi Pringle
+                    email: ngp2@rice.edu
+        -   name: Burts
+            heads:
+                -   name: Michael Robinson
+                    email: mdr8@rice.edu
+                -   name: Kalina Zhong
+                    email: kqz1@rice.edu
+                -   name: Othniel Noble Twum
+                    email: ont1@rice.edu
+                -   name: Quentin Li
+                    email: hl43@rice.edu
+        -   name: Culturals
+            heads:
+                -   name: Seth Berggren
+                    email: skb4@rice.edu
+                -   name: Rivkah Gardner-Frolick
+                    email: rpg1@rice.edu
+                -   name: Miranda Morris
+                    email: mxm2@rice.edu
+                -   name: Hannah Eareckson
+                    email: hbe1@rice.edu
+                -   name: Indigo Villanueva
+                    email: ihv1@rice.edu
+        -   name: External Socials
+            heads:
+                -   name: Eunice Chen
+                    email: yc74@rice.edu
+                -   name: Ben Rieden
+                    email: bwr2@rice.edu
+                -   name: Quinn Matthews
+                    email: qkm1@rice.edu
+                -   name: Gina de La Guardia
+                    email: gyd1@rice.edu
+        -   name: Internal Socials
+            heads:
+                -   name: Nick Killian
+                    email: njk4@rice.edu
+                -   name: Katie Mackall
+                    email: krm8@rice.edu
+                -   name: Eli Badgio
+                    email: eb27@rice.edu
+                -   name: Cass Mosley
+                    email: csm3@rice.edu
 
 
 

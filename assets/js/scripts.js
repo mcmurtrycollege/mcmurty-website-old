@@ -2,7 +2,7 @@
 $(document).ready(function() {
 
 	// var declarations
-	var headingHeight = $('#heading').outerHeight();
+	var headingHeight = $('.heading').outerHeight();
 	var colorDarkPurple = '#443850';
 	var colorPurple = '#8964A1';
 	$('.nav-dropdown .nav-link').click(function(e) {
@@ -12,6 +12,22 @@ $(document).ready(function() {
 	//// functions
 
 	// miscellaneous
+
+	// associates logic
+	$('.menu-link').click(function(e){
+		e.preventDefault();
+		$('.menu-link').css({'color':'white'});
+		$(this).css({'color':colorDarkPurple});
+
+		var text = $(this).text();
+		var fellows = {"Masters":"masters", "Head Resident Fellows":"hrf", "2nd Floor RAs":"2ra", "3rd Floor RAs":"3ra", "College Coordinator":"cc"};
+
+		$(".selected").removeClass("selected");
+		$(".fellow-" + fellows[text]).addClass("selected");
+
+		// $(fellowClass).show();
+
+	});
 
 	// nav bar helpers
 	function animateNavColorPosition(position, bgColor, accentColor, fontColor, fontAccent, fontWeight, fontOldWeight) {

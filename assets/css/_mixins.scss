@@ -15,6 +15,11 @@
     -moz-box-sizing: $size;
     box-sizing: $size;
 }
+@mixin rotate2D($angle) {
+    -ms-transform: rotate($angle);
+    -webkit-transform: rotate($angle);
+    transform: rotate($angle);
+}
 
 // flexbox properties
 @mixin flex() {
