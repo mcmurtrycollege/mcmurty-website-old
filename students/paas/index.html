@@ -2,3 +2,51 @@
 layout: people
 title: Peer Academic Advisors
 ---
+<section class='office'>
+	<!-- <h2> Academic Fellows </h2> -->
+	<div class="section-text">
+		<p> PAAs provide peer advice to fellow students about a wide range of academically-related topics. With personal experience as a Rice student and training from the Office of Academic Advising, PAAs offer accurate advice regarding specific courses, co-curricular opportunities, academic rules and procedures, and a wide range of other topics. </p>
+	</div>
+	<table class='officers'>
+		<tr class='table-heading'>
+			<th> Position </th>
+			<th> Name </th>
+			<th> Email </th>
+			<th> Major(s) </th>
+			<th> </th>
+		</tr>
+		{% assign headpaas = site.data.academics.head-paas %}
+		{% for headpaa in headpaas %}
+		<tr class='table-data'>
+			<td> Head PAA </td>
+			<td> {{ headpaa.name }} </td>
+			<td> <a href='mailto:{{ headpaa.email }}'> {{ headpaa.email }} </a> </td>
+			<td> {{ headpaa.majors }} </td>
+			<td> {{ headpaa.year }} </td>
+		</tr>
+		{% endfor %}
+
+		{% assign oweekpaas = site.data.academics.oweek-paas %}
+		{% for oweekpaa in oweekpaas %}
+		<tr class='table-data'>
+			<td> O-Week PAA </td>
+			<td> {{ oweekpaa.name }} </td>
+			<td> <a href='mailto:{{ oweekpaa.email }}'> {{ oweekpaa.email }} </a> </td>
+			<td> {{ oweekpaa.majors }} </td>
+			<td> {{ oweekpaa.year }} </td>
+		</tr>
+		{% endfor %}
+
+		{% assign paas = site.data.academics.all-paas %}
+		{% for paa in paas %}
+		<tr class='table-data'>
+			<td></td>
+			<td> {{ paa.name }} </td>
+			<td> <a href='mailto:{{ paa.email }}'> {{ paa.email }} </a> </td>
+			<td> {{ paa.majors }} </td>
+			<td> {{ paa.year }} </td>
+		</tr>
+		{% endfor %}
+	</table>
+	
+</section>

@@ -2,3 +2,25 @@
 layout: people
 title: Strive Liaisons
 ---
+<section class='office'>
+	<!-- <h2> Academic Fellows </h2> -->
+	<div class="section-text">
+		<p> STRIVE is a student-driven coalition that empowers all members of the Rice community to play an active role in eliminating gender-based inequality and sexual violence. We do this by engaging in positive, open dialogue, pooling on and off-campus resources, and providing the tools and skills necessary to create cultural change  </p>
+	</div>
+	<table class='officers'>
+		<tr class='table-heading'>
+			<th> Name </th>
+			<th> Phone </th>
+			<th> Room </th>
+		</tr>
+		{% assign strive = site.data.health.strive %}
+		{% for liaison in strive %}
+		<tr class='table-data'>
+			<td> {{ liaison.name }} </td>
+			<td> {{ liaison.phone }} </td>
+			<td> {{ liaison.room }} </td>
+		</tr>
+		{% endfor %}
+	</table>
+	
+</section>

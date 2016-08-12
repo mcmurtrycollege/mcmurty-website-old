@@ -1,8 +1,124 @@
-paas:
-  - name:
-    majors:
-    email:
-    year:
+head-paas:
+  - name: Colton Cox
+    majors: Sociology, Policy Studies, Jewish Studies minor, Pre-Law
+    email: clc8@rice.edu
+    year: 2018
+  - name: Monika Jain
+    majors: Kinesiology, Business minor, Pre-Med
+    email: mkj5@rice.edu
+    year: 2018
+  - name: Grant Stec
+    majors: Chemistry, Pre-Grad
+    email: gjs3@rice.edu
+    year: 2017
+
+oweek-paas:
+  - name: Magen Eissenstat
+    majors: English; Poverty, Justice and Human Capabilities minor; Anthropology minor, Pre-Grad
+    email: mae4@rice.edu
+    year: 2017
+  - name: Rachel Resnick
+    majors: Computer Science
+    email: rdr2@rice.edu
+    year: 2017
+  - name: Grant Stec
+    majors: Chemistry, Pre-Grad
+    email: gjs3@rice.edu
+    year: 2017
+  - name: Saad Yousaf
+    majors: Mechanical Engineering, Computational and Applied Mathematics minor
+    email: sny1@rice.edu
+    year: 2019
+
+all-paas:
+  - name: Nadia Ansari
+    majors: Biosciences, Global Health Technologies, Pre-Med
+    email: na25@rice.edu
+    year: 2018
+  - name: Saheba Bhatnagar
+    majors: Bioengineering, Pre-Med
+    email: sb57@rice.edu
+    year: 2018
+  - name: Shelby Bice
+    majors: Computer Science, Visual & Dramatic Arts
+    email: slb10@rice.edu
+    year: 2019
+  - name: Marc Canby
+    majors: Computer Science and Mathematics Double Major; Masters in Statistics
+    email: mec13@rice.edu
+    year: 2018
+  - name: Eunice Chen
+    majors: Chemical and Biomolecular Engineering, Business minor
+    email: yc74@rice.edu
+    year: 2019
+  - name: Colton Cox
+    majors: Sociology, Policy Studies, Jewish Studies minor, Pre-Law
+    email: clc8@rice.edu
+    year: 2018
+  - name: Makenzie Drukker
+    majors: Political Science, French Studies, Pre-Law
+    email: mkd3@rice.edu
+    year: 2017
+  - name: Magen Eissenstat
+    majors: English; Poverty, Justice and Human Capabilities minor; Anthropology minor, Pre-Grad
+    email: mae4@rice.edu
+    year: 2017
+  - name: Sydney Garrett
+    majors: Biochemistry & Cell Biology, History, Pre-Med
+    email: scg5@rice.edu
+    year: 2019
+  - name: Monika Jain
+    majors: Kinesiology, Business minor, Pre-Med
+    email: mkj5@rice.edu
+    year: 2018
+  - name: Saiesh Kalva
+    majors: Biochemistry & Cell Biology, Business minor, Pre-Med
+    email: sk96@rice.edu
+    year: 2019
+  - name: Patrick Kelly
+    majors: Chemistry, Pre-Grad
+    email: pqk1@rice.edu
+    year: 2019
+  - name: Mackenzie Kubik
+    majors: Chemical Physics, Biochemistry minor, Pre-Grad
+    email: mlk10@rice.edu
+    year: 2019
+  - name: Emma McCormick
+    majors: Biochemistry and Cell Biology, Pre-Med, Pre-Grad
+    email: ebm3@rice.edu
+    year: 2019
+  - name: Miranda Morris
+    majors: Kinesiology (Sports Medicine), Visual and Dramatic Arts (Studio Art), Pre-Med
+    email: mxm2@rice.edu
+    year: 2019
+  - name: Albert Nabiullin
+    majors: Mathematical Economic Analysis; Math minor; Politics, Law and Social Thought minor; Pre-Grad
+    email: an22@rice.edu
+    year: 2018
+  - name: Rachel Resnick
+    majors: Computer Science
+    email: rdr2@rice.edu
+    year: 2017
+  - name: Morgan Rousseau
+    majors: Economics; Biochemistry and Cell Biology minor, Pre-Med
+    email: mar10@rice.edu
+    year: 2017
+  - name: Grant Stec
+    majors: Chemistry, Pre-Grad
+    email: gjs3@rice.edu
+    year: 2017
+  - name: Kelly Tomasevich
+    majors: Biochemistry and Cell Biology, Pre-Med
+    email: kmt6@rice.edu
+    year: 2017
+  - name: Madhuri Venkateswar
+    majors: Chemical and Biomolecular Engineering; Poverty, Justice, and Human Capabilities
+    email: msv5@rice.edu
+    year: 2017
+  - name: Saad Yousaf
+    majors: Mechanical Engineering, Computational and Applied Mathematics minor
+    email: sny1@rice.edu
+    year: 2019
 
 head-fellows:
   - name: Nadia Ansari

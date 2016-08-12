@@ -1,0 +1,28 @@
+rhas:
+  - name: Gina De La Guardia
+    phone: (281) 825-7073
+    room: 478
+  - name: Claire Sandman
+    phone: (713) 906-7575
+    room: 514
+  - name: Gabriel Gomide
+    phone: (817) 235-2333
+    room: 444
+  - name: Rachel Lin
+    phone: (650) 996-5502
+    room: 430
+  - name: Monika Jain
+    phone: (901) 827-2618
+    room: 455
+  - name: Kunqian Li
+    phone: (832) 738-9166
+    room: 319
+
+strive:
+  - name: Anna Thomas
+    phone: (832) 951-3035
+    room: 4C
+
+  - name: Mahdi Fariss
+    phone: (210) 848-5685
+    room: 3C
