@@ -5,14 +5,14 @@ title: Committees
 
 <div id='home-quick'>
 	<div>
-		<a href='/students/committees/#' class='quick-link'> External </a>
-		<a href='/students/committees/#' class='quick-link'> Internal </a>
-		<a href='/students/committees/#' class='quick-link'> Social </a>
+		<a href='/students/committees/#' class='committee-quick-link'>External</a>
+		<a href='/students/committees/#' class='committee-quick-link'>Internal</a>
+		<a href='/students/committees/#' class='committee-quick-link'>Social</a>
 	</div>
 </div>
 
 {% for group in site.data.committees %}
-<section id='{{ group.class }}' class='office'>
+<section id='{{ group.class }}' class="office {% if group.class == 'external' %} selected {% endif %}">
 	<h2> {{ group.name }} </h2>
 	
 	<div class='comm-group'>
@@ -20,7 +20,8 @@ title: Committees
 		<div class='comm-single'>
 			<h3> {{ committee.name }} </h3>
 			<div class='section-text'>
-				<p> {{ committee.description}} </p>
+				<p> {{ committee.description }} </p>
+				<p> {{ committee.freshmen }} </p>
 			</div>
 			<table class='comm-heads'>
 				<tr class='table-heading'>

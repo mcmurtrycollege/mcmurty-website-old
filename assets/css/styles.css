@@ -95,6 +95,8 @@ section {
     text-align: center; }
   section .section-text {
     text-align: justify; }
+    section .section-text p b {
+      color: #443850; }
   section .section-list {
     font-family: 'Quattrocento', serif;
     color: black;
@@ -417,6 +419,9 @@ footer {
 #reserve-banner, #resources-banner {
   background: url("../img/reserve.jpg") center center no-repeat;
   background-size: cover; }
+
+.office {
+  display: none; }
 
 .comm-single {
   margin-top: 30px; }

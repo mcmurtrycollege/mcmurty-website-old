@@ -110,9 +110,12 @@ section {
 
 		text-align: center;	
     }
-
     .section-text {
 		text-align: justify;
+
+		p b {
+			color: $color-dark-purple;
+		}
 	}
 	.section-list {
 		font-family: 'Quattrocento', serif;

@@ -13,6 +13,18 @@ $(document).ready(function() {
 
 	// miscellaneous
 
+	// committees logic
+	$('.committee-quick-link').click(function(e){
+		e.preventDefault();
+		$('.committee-quick-link').css({'color':'white'});
+		$(this).css({'color':colorDarkPurple});
+
+		var text = $(this).text().toLowerCase();
+
+		$(".selected").removeClass("selected");
+		$("#" + text).addClass("selected");
+	});
+
 	// associates logic
 	$('.menu-link').click(function(e){
 		e.preventDefault();
@@ -24,9 +36,6 @@ $(document).ready(function() {
 
 		$(".selected").removeClass("selected");
 		$(".fellow-" + fellows[text]).addClass("selected");
-
-		// $(fellowClass).show();
-
 	});
 
 	// nav bar helpers
