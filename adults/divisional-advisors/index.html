@@ -1,0 +1,18 @@
+---
+layout: default
+title: Divisional Advisors
+---
+
+<div id="mcteam-banner" class="banner">
+	<h1> McTeam </h1>
+</div>
+
+{% for advisor in site.data.adults.divisional %}
+<section>
+	<div class="section-text">
+		<h2> {{advisor.dept}}: {{advisor.name}} </h2>
+		<p> {{advisor.bio}} </p>
+
+	</div>
+</section>
+{% endfor %}
