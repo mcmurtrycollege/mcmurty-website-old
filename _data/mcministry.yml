@@ -1,50 +1,50 @@
 -   name: Executive Council 2016-17
     members:
     -   position: President
-        name: Madhuri Venkateswar
-        year: 2017
-        email: mcmurtrypresident@gmail.com
-    -   position: Prime Minister
-        name: Sam Wittmann
-        year: 2018
-        email: murtpm@gmail.com
-    -   position: Internal VP
-        name: Rohit Kavukuntla
-        year: 2018
-        email: mcmurtryivp@gmail.com
-    -   position: External VP
         name: Walden Pemantle
         year: 2018
-        email: mcmurtryevp@gmail.com
-    -   position: Secretary
-        name: Sydney Garrett
+        email: mcmurtrypresident@gmail.com
+    -   position: Prime Minister
+        name: Katie Mackall
         year: 2019
-        email: mcmsecretary@gmail.com
-    -   position: Secretary
+        email: murtpm@gmail.com
+    -   position: Internal VP
+        name: Gina de la Guardia
+        year: 2019
+        email: mcmurtryivp@gmail.com
+    -   position: External VP
         name: Chelsea Morin
         year: 2019
+        email: mcmurtryevp@gmail.com
+    -   position: Secretary
+        name: Miranda Lee
+        year: 2020
+        email: mcmsecretary@gmail.com
+    -   position: Secretary
+        name: Rebecca Topper
+        year: 2020
         email: mcmsecretary@gmail.com
     -   position: Treasurer
-        name: Dagem Adera
-        year: 2018
+        name: Asli Yilmaz
+        year: 2020
         email: mcmurtrytreasurer@gmail.com
     -   position: Treasurer
-        name: Saiesh Kalva
-        year: 2019
+        name: Maishara Muquith
+        year: 2020
         email: mcmurtrytreasurer@gmail.com
     -   position: Chief Justice
         name: Albert Nabiullin
         year: 2018
         email: mcmurtrycj@gmail.com
     -   position: SA Senator
-        name: Mahdi Fariss
-        year: 2019
+        name: Albert Nabiullin
+        year: 2018
         email: mcmurtrysenator@gmail.com
 -   name: People's Council
     members:
     -   position: At Large Rep
-        name: Madison Blattel
-        year: 2018
+        name: Sydney Garrett
+        year: 2019
         email: mcmurtrypc@gmail.com
     -   position: 2 Yellow
         name: Leah Sherman
