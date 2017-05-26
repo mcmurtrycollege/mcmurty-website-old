@@ -11,15 +11,14 @@
                     email: njs3@rice.edu
                 -   name: Amina Williams
                     email: aaw7@rice.edu
-
         -   name: Associates
             description: The Associates Committee serves as a liaison between McMurtry's students and associates. McMurtry associates are Rice faculty as well as adult professionals in the Houston area who are associated with Rice. They serve as mentors, friends, academic advisers, and general resources for students. The Associates Committee hosts intellectual events, monthly lunches, study breaks, holiday events, and a formal Associates' Night each semester. The committee also organizes O-week group lunches with associates, as well as a pre-O-week reception and dinner.
             freshmen: Our committee engages new students (1) recruiting at least one student as a committee head so they can connect new students to Associates and (2) offering service hours to new students who want to help organize, set up, and disassemble events. 
             heads:
-                -   name: Monika Jain
-                    email: mkj5@rice.edu
-                -   name: Vicky Yang
-                    email: yy27@rice.edu
+                -   name: Simone Bergsrud
+                    email: smb18@rice.edu
+                -   name: Shravya Kakulamarri
+                    email: sk105@rice.edu
                 -   name: Swathi Rayasam
                     email: ssr6@rice.edu
                 -   name: Meghana Chilukuri
@@ -28,34 +27,36 @@
             description: The Intramural Sports committee serves several athletics-related roles, with the most important being getting Murts involved! By serving as liaison between McMurtry and IMS (the rec center), the sports committee works to promote both college and intramural sports, help people sign up, and represent McMurtry to IMS. Committee members also work with powerpuff (yay powderpuff!), work to get competing Murts in legit athletic swag, and generally love sports themselves.
             freshmen: Our committee engages new students by increasing the visibility of IM sports through fliers and a sign-up board in the commons. Additionally, new students play a huge role in increasing the breadth and depth of our showing at games.
             heads:
-                -   name: Anna Thomas
-                    email: alt3@rice.edu
+                -   name: Lizzie Hoffmann
+                    email: eah10@rice.edu
+                -   name: Quinn Matthews
+                    email: qkm1@rice.edu
         -   name: Philanthropy
             description: Enjoy volunteering but not sure you can make a long-term commitment? Want to spend time with other students while making an impact? Want to pick one non-profit with which you can make an impact for 4 years? The Philanthropy Committee encourages student engagement in the community and supports Houston organizations by organizing fun service opportunities both on and off campus throughout the year. We also partner with other colleges and the Rice Service Council to coordinate large-scale events.
             freshmen: Our committee engages new students by inviting them to choose a charity or volunteer organization with whom they can work for four years. Therefore, new students will have the opportunity to develop a sustainable and working relationship with their respective organization. 
             heads:
-                -   name: Jacqueline Audas
-                    email: jka3@rice.edu
+                -   name: Eunice Chen
+                    email: yc74@rice.edu
                 -   name: Mackenzie Kubik
                     email: mlk10e@rice.edu
-                -   name: Esther Tang
-                    email: ext1@rice.edu
+                -   name: Allison Jaffe
+                    email: alj4@rice.edu
         -   name: Varsity Sports Liaison
             description: The Varsity Sports Liaison is responsible for connecting McMurtry to all varsity sports on campus! We host tailgates and other cool events!
             freshmen: Our committee engages new students by inviting them to plan tailgates before major university sports events. 
             heads:
-                -   name: Quinn Matthews
-                    email: qkm1@rice.edu
+                -   name: Caroline Cobb
+                    email: cec13@rice.edu
         -   name: Seniors
             description: The senior committee is responsible for planning and hosting fun events for the senior class throughout the year.  Various events include the champagne toast kickoff, wine and cheese tasting, off-campus bar hopping, senior tailgates, and other senior-exclusive events.  The goal of the committee is to ensure that all McMurtry seniors truly enjoy their last year with the college family.
             freshmen: Our committee engages new students by through the freshmen/senior mixer. 
             heads:
-                -   name: Makenzie Drukker
-                    email: mkd3@rice.edu
-                -   name: Raleigh Anderson
-                    email: rsa3@rice.edu
-                -   name: Annie Nordhauser
-                    email: lan1@rice.edu
+                -   name: Sam Wittmann
+                    email: smw9@rice.edu
+                -   name: Ari Brown
+                    email: alb11@rice.edu
+                -   name: Luis Vasquez
+                    email: lev3@rice.edu
 
 -   name: Internal
     class: internal
@@ -64,53 +65,48 @@
             description: The Amenities Committee is responsible for the improvement and upkeep of the public spaces (such as the lounges, TV room, game room, outside on 5th Floor, and hang-out area in the Commons) throughout McMurtry. Each member of our committee is in charge of managing one space - and we’re open to any suggestions! We focus on creating a pleasant atmosphere throughout the college with rooms and amenities all students can utilize. The Amenities Committee strives to implement long-lasting enhancements that can be enjoyed by Murts for years to come!
             freshmen: Our committee engages new students by inviting them to join the committee and be assigned one space to maintain. 
             heads:
-                -   name: Colin Howman 
-                    email: jch17@rice.edu
-                -   name: Patrick Kelly 
-                    email: pqk1@rice.edu
-                -   name: Zach Kortum
-                    email: zk9@rice.edu
+                -   name: Bryce Miller
+                    email: bwm3@rice.edu
+                -   name: Paraksh Vankawala
+                    email: pmv2@rice.edu
         -   name: Arts
             description: The Arts committee is dedicated to hosting quality shows at McMurtry centered around all types of performing arts. Including talent shows and theatre productions, we want to facilitate the creativity of students at McMurtry and help each and every one on their journey of discovery in the arts world.
             freshmen: Our committee engages new students by getting them involved in the show that McMurtry puts on in the Spring semester. New students can try out for both acting and technical roles.
             heads:
                 -   name: Shelby Bice
                     email: slb10@rice.edu
-        -   name: Elections
-            description: Empowering speeches, lofty promises, and rigorous campaigning are as much a part of running for President as they are for the McMinistry.  Sadly, though, none of this would be possible without the Elections Committee. With multiple elections taking place throughout the year, the Elections Committee ensures that McMurtry’s elections run smoothly and take place in a timely manner.  It is the Elections Committee’s goal to encourage every Murt to vote so the elected officials represent the college as a whole.
-            heads:
-                -   name: Savion Lee
-                    email: stl2@rice.edu
         -   name: Environmental
             description: The Environmental Committee exists at McMurtry to keep the college's effect on Earth in the minds of every Murt. This committee aims to help raise awareness about the little things that everyone can do to reduce the college's overall environmental impact.
             freshmen: Our committee engages new students by crowdsourcing their ideas of how to improve McMurtry’s environmental sustainability and inviting them to help organize events.
             heads:
-                -   name: Laura Nicholson
-                    email: lpn1@rice.edu
-                -   name: Ben Johnson
-                    email: bjj2@rice.edu
+                -   name: Sachi Paul
+                    email: sp57@rice.edu
+                -   name: Gennifer Geer
+                    email: gkg1@rice.edu
         -   name: Food Rep
             description: We serve as your liaisons between the college and the West Servery chefs and also plan food for FIT-Qs!
             freshman: Our committee engages new students by gathering their input regarding servery options and other events. 
             heads:
-                -   name: Colin Howman
-                    email: jch17@rice.edu
-                -   name: Nathalie Philips
-                    email: nap7@rice.edu
+                -   name: Justin Chang
+                    email: jc103@rice.edu
+                -   name: Lilah Muthusamy
+                    email: dkm4@rice.edu
         -   name: Murtchandise
             description: The Murtchandise committee is responsible for designing and selling awesome swag to the college - including T-shirts, mugs, blankets, umbrellas, and much much more! We’re always open to any suggestions!
             freshmen: Our committee engages new students by inviting them to join the committee and therefore brainstorming and designing merchandise. 
             heads:
-                -   name: Sydney Garrett
-                    email: scg5@rice.edu
+                -   name: Sam Wittman
+                    email: smw9@rice.edu
+                -   name: Mahesh Krishna
+                    email: mk58@rice.edu
         -   name: Tech
             description: The Technology Committee is responsible for everything from maintaining our computer lab to all of the A/V equipment in the Commons and PDR and this very website. The roles on this committee include Director of Technology, Webmaster, Computer Lab Associate, and Technology Associate.
             freshmen: Our committee engages new students by offering service hours to those who volunteer in events like our Public Party and FIT-Qs.
             heads:
-                -   name: Ashton Drake
-                    email: apd8@rice.edu
+                -   name: Shawn Matlock
+                    email: smm26@rice.edu
         -   name: Website
-            heads:
+            heads: Our committee works on developing and updating the McMurtry Website.
                 -   name: Jeffrey Xiong
                     email: jx13@rice.edu
 
@@ -120,20 +116,20 @@
         -   name: Beer Bike
             description: Beer Bike. Some say it's the best day of the year. Others say it's the best day of their lives (with the exception of the other Beer Bikes they were fortunate enough to attend). The Beer Bike Committee is in charge of making this monumentous day a reality for all of McMurtry to enjoy. Whether it be assisting the Biking or Chugging Teams, organizing water balloon filling, or rounding people up for an epic jack on… Duncan (of course) – there is something for everyone (including new students) to do!
             heads:
-                -   name: Quinn Matthews
-                    email: qkm1@rice.edu
-                -   name: Kelsi Wicker
-                    email: kmw7@rice.edu
-                -   name: Naomi Pringle
-                    email: ngp2@rice.edu
+                -   name: Mitchell Baker
+                    email: mtb6@rice.edu
+                -   name: Caroline Krawczyk
+                    email: cek2@rice.edu
+                -   name: Sam Rossum
+                    email: sdr5@rice.edu
         -   name: Burts
             description: The Burts committee is dedicated to putting on quirky, intellectual events in our unique Burt’s Lounge! Anyone is always welcome to our tea breaks, faculty-hosted talks, or just to hang out!
             freshmen: Our committee engages new students by (1) inviting new students to be Burt’s representatives to help plan events and (2) hosting a mixer with new and returning students. 
             heads:
-                -   name: Michael Robinson
-                    email: mdr8@rice.edu
-                -   name: Kalina Zhong
-                    email: kqz1@rice.edu
+                -   name: Mitra Mirpour
+                    email: mm102@rice.edu
+                -   name: Alicia Cotto
+                    email: amc26@rice.edu
                 -   name: Othniel Noble Twum
                     email: ont1@rice.edu
                 -   name: Quentin Li
@@ -142,40 +138,40 @@
             description: The McMurtry Cultural Committee exists to engage students in the diversity of the Houston community. Currently, Culturals subsidizes ethnic restaurants along the METRO-rail, provides themed study breaks, and is responsible for the college Hookah, amongst other fascinating cultural things. The committee also facilitates opportunities for free events and shows in Houston through a liaison with RPC. Here mostly to provide McMurtry with free food and concerts, the Cultural Committee ensures McMurtry is never short of fun things to do both within and beyond the hedges.
             freshmen: Our committee engages new students by offering service hours in exchange for help with setup, cleanup, and other important duties for larger cultural events. This is also a great way to get to know and appreciate the diversity of backgrounds and experiences of the McMurtry family. 
             heads:
-                -   name: Seth Berggren
-                    email: skb4@rice.edu
-                -   name: Rivkah Gardner-Frolick
-                    email: rpg1@rice.edu
-                -   name: Miranda Morris
-                    email: mxm2@rice.edu
+                -   name: Sam Quen
+                    email: srq1@rice.edu
+                -   name: Maishara Muquith
+                    email: mm100@rice.edu
+                -   name: Lauren Loh
+                    email: lsl3@rice.edu
                 -   name: Hannah Eareckson
                     email: hbe1@rice.edu
-                -   name: Indigo Villanueva
-                    email: ihv1@rice.edu
+                -   name: Natalie N. Sanchez
+                    email: nns5@rice.edu
         -   name: External Socials
             description: External Socials are simply put, very very social. We plan events that feature Murts interacting with other colleges, including McMurtry's public party and Pub night. Our goal is to create activities that every Murt would love to participate in and to find ways to make sure every member of our college feels connected to the community by simply doing FUN STUFF. We are always ready to hear any input that anyone might have, and we cannot wait to make this an amazing year!
             freshmen: Our committee engages new students by (1) encouraging them to join our committee to assist in planning bigger events like College Night and our Public Party and (2) offering volunteer opportunities such as setting/cleaning up events, caregiving, and other necessary jobs required to make our events run smoothly. 
             heads:
-                -   name: Eunice Chen
-                    email: yc74@rice.edu
-                -   name: Ben Rieden
-                    email: bwr2@rice.edu
-                -   name: Quinn Matthews
-                    email: qkm1@rice.edu
-                -   name: Gina de La Guardia
-                    email: gyd1@rice.edu
+                -   name: Gennifer Geer
+                    email: gkg1@rice.edu
+                -   name: Jake Bhoi
+                    email: jdb15@rice.edu
+                -   name: Jane Clinger
+                    email: jwc8@rice.edu
+                -   name: Sachi Paul
+                    email: sp57@rice.edu
         -   name: Internal Socials
             description: The Internal Socials committee - a group dedicated to fostering McMurtry spirit, bonding, and fun. But more importantly we’re dedicated to keeping McMurtry to as little studying as possible. The committee puts on various social events throughout the year including, but not limited to board game and movie nights, Fridays in the Quad, social mixer events and McSkate.
             freshmen: Our committee engages new students by offering service hours for (1) setting up, disassembling, and serving during ‘Friday in the Quad’, and (2) helping plan our other events during the semester. 
             heads:
-                -   name: Nick Killian
-                    email: njk4@rice.edu
-                -   name: Katie Mackall
-                    email: krm8@rice.edu
-                -   name: Eli Badgio
-                    email: eb27@rice.edu
-                -   name: Cass Mosley
-                    email: csm3@rice.edu
+                -   name: Davis Nelson
+                    email: dvn2@rice.edu
+                -   name: Julia Reilly
+                    email: jmr16@rice.edu
+                -   name: Matthew Perez
+                    email: mep10@rice.edu
+                -   name: Jannie Matar
+                    email: jfm8@rice.edu
 
 
 
