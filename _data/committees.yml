@@ -106,7 +106,8 @@
                 -   name: Shawn Matlock
                     email: smm26@rice.edu
         -   name: Website
-            heads: Our committee works on developing and updating the McMurtry Website.
+            description: The Website Committee works on developing and updating the McMurtry Website.
+            heads: 
                 -   name: Jeffrey Xiong
                     email: jx13@rice.edu
 
