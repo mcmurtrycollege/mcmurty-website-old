@@ -1,144 +1,144 @@
-- name: Aaron Shi
-  year: Sophomore
-  major: Kinesiology
-- name: Akash Ghosal
+- name: Abigail Shulman
+  major: Cognitive Sciences + Religious Studies
   year: Junior
-  major: Civil Engineering
+- name: Alyssa Alvis
+  major: Psychology + Biochemistry
+  year: Sophomore
 - name: Amina Williams
+  major: Cognitive Sciences + Global Health Technologies (minor)
+  year: Junior
+- name: Anagha Srirangam
+  major: Kinesiology (Sports Medicine)
+  year: Junior
+- name: Aziza Salako
+  major: Statistics + Global Health Technologies (minor)
+  year: Junior
+- name: Billy Guo
+  major: Computer Science + Mathematical Economic Analysis
+  year: Junior
+- name: Brianna Singh
+  major: Chemical and Biomolecular Engineering
+  year: Senior
+- name: Bryce Miller
+  major: Psychology + Political Science
   year: Sophomore
-  major: Cognitive Science
-- name: Anna Klineberg
-  year: Senior
-  major: Psychology
-- name: Ben Coben
-  year: Sophomore
-  major: Mathematics
-- name: Ben Johnson
-  year: Junior
-  major: Ecology and Evolutionary Biology
-- name: Carlos Correa
-  year: Junior
-  major: Chemical Engineer
-- name: Cody VanZandt
-  year: Senior
-  major: Computer Science / English
-- name: Daniel Zdeblick
-  year: Senior
-  major: Electrical Engineering
-- name: Emily Lisa
-  year: Junior
-  major: Computer Science / Statistics
-- name: Erik Loewen
-  year: Senior
-  major: Anthropology / Biochemistry
-- name: Gabriel Gomide
-  year: Sophomore
-  major: Biochemistry
-- name: Grant Stec
-  year: Senior
-  major: Chemistry
-- name: Jackson Dooling
-  year: Junior
+- name: Caroline Siegfried
   major: English
-- name: James Carter
-  year: Senior
-  major: Psychology / English
-- name: Jasmine Lin
+  year: Sophomore
+- name: Colin Howman
+  major: Chemical and Biomolecular Engineering
   year: Junior
-  major: Sociology / Policy Studies
-- name: Jodie Nghiem
-  year: Senior
-  major: Ecology and Evolutionary Biology / French
-- name: Joe Holden
+- name: Davis Nelson
+  major: Bioengineering + Financial Computation and Modeling
+  year: Sophomore
+- name: Esther Tang
+  major: Architecture + Environmental Studies (minor)
   year: Junior
-  major: Biochemistry
-- name: Jovany Franco
-  year: Junior
-  major: Biochemistry / Latin American Studies
-- name: Joyce Moon
-  year: Sophomore
-  major: Kinesiology / Psychology
-- name: Katie Mackall
-  year: Sophomore
-  major: Biochemistry
-- name: Laura Nicholson
-  year: Junior
-  major: Ecology and Evolutionary Biology / Kinesiology
-- name: Lenna Mendoza
-  year: Junior
-  major: English
-- name: Lily Vo
-  year: Junior
-  major: Cognitive Science
-- name: Mackenzie Kubik
-  year: Sophomore
-  major: Physics / Geology
-- name: Magen Eissenstat
-  year: Senior
-  major: English
-- name: Martin Torres
-  year: Senior
-  major: Civil Engineering
-- name: Michael Portal
-  year: Senior
-  major: Philosophy / Policy Studies
-- name: Michael Robinson
-  year: Senior
-  major: Anthropology / Film
-- name: Millie Antwi
-  year: Nsiah
-  major: Junior Bioengineering
-- name: Mishi Jain
-  year: Junior
-  major: Political Science / Policy Studies
-- name: Nadia Zulfa
-  year: Junior
-  major: Cognitive Science
-- name: Naimah Sarwar
-  year: Sophomore
-  major: Cognitive Science
-- name: Nathalie Phillips
-  year: Sophomore
-  major: Mechanical Engineering / Spanish
-- name: Newsha Nikzad
-  year: Sophomore
-  major: Kinesiology / Sports Med
-- name: Nick Killian
-  year: Sophomore
-  major: Civil Engineering
-- name: Paul Onyali
-  year: Sophomore
-  major: Economics / Manager Studies
-- name: Quinn Mathews
-  year: Sophomore
-  major: Materials Science
-- name: Rachel Resnick
-  year: Senior
-  major: Computer Science
-- name: Romeo Garza
-  year: Senior
-  major: Electrical Engineering
-- name: Saad Yousaf
-  year: Sophomore
-  major: Mechanical Engineering
-- name: Saiesh Kalva
-  year: Sophomore
-  major: Biochemistry
-- name: Sanjiv Gopalkrishnan
-  year: Senior
-  major: Mechanical Engineering
-- name: Sarah Lumelsky
-  year: Junior
-  major: Architecture
-- name: Sawyer Knight
-  year: Senior
-  major: Economics
-- name: Sparrow Gates
-  year: Senior
-  major: Religion
-- name: Tommy Nguyen
-  year: Senior
-  major: Kinesiology
-- name: Tony Ren
-  year: Senior
+- name: Grant Lu
   major: Bioengineering
+  year: Sophomore
+- name: Hiren Patel
+  major: Kinesiology
+  year: Junior
+- name: Jake Bhoi
+  major: Cognitive Sciences + Biochemistry and Cell Biology (minor) + Neuroscience (minor)
+  year: Sophomore
+- name: Jane Clinger
+  major: Psychology
+  year: Sophomore
+- name: Jannie Matar
+  major: Biochemistry and Cell Biology + Women, Gender, Sexuality Studies
+  year: Sophomore
+- name: Jasmine Lin
+  major: Sociology + Anthropology
+  year: Senior
+- name: Johnathon Berry
+  major: Mechanical Engineering
+  year: Sophomore
+- name: Katie Webber
+  major: Economics + Women, Gender, Sexuality Studies + Poverty, Justice, Human Capabilities (minor)
+  year: Junior
+- name: Kelsi Wicker
+  major: Mechanical Engineering + Engineering Design (minor)
+  year: Senior
+- name: Kevin Mullin
+  major: Computer Science + Computational and Applied Math (minor)
+  year: Senior
+- name: Laney Baker
+  major: Civil and Environmental Engineering + Political Science + Sustainability (minor)
+  year: Sophomore
+- name: Laura Nicholson
+  major: Ecology and Evolutionary Biology + Environmental Studies (minor)
+  year: Senior
+- name: Lauren Loh
+  major: Mathematical Economic Analysis + Business (minor)
+  year: Sophomore
+- name: Lenna Mendoza
+  major: English
+  year: Senior
+- name: Lizzie Bjork
+  major: History + English + Politics, Law, Social Thought (minor)
+  year: Sophomore
+- name: Lupita Galvan Tinoco
+  major: Cognitive Sciences + Biochemistry and Cell Biology (minor)
+  year: Sophomore
+- name: Mahesh Krishna
+  major: Biochemistry and Cell Biology + Policy Studies
+  year: Sophomore
+- name: Maishara Muquith
+  major: Biochemistry and Cell Biology + Policy Studies + Sociology (minor)
+  year: Sophomore
+- name: Matthew Carey
+  major: Cognitive Sciences + Political Science
+  year: Sophomore
+- name: Meghana Chilukuri
+  major: Computer Sciences + Mathematics
+  year: Junior
+- name: Miranda Lee
+  major: History
+  year: Sophomore
+- name: Miranda Morris
+  major: Policy Studies (Health Care Management) + Visual and Dramatic Arts (Studio Art)
+  year: Sophomore
+- name: Monika Jain
+  major: Kinesiology + Medical Humanities (minor)
+  year: Senior
+- name: Nadia Ansari
+  major: Biological Sciences + Global Health Technologies (minor)
+  year: Senior
+- name: Naimah Sarwar
+  major: Cognitive Sciences
+  year: Junior
+- name: Pamela Ekechukwu
+  major: Chemical and Biomolecular Engineering
+  year: Junior
+- name: Paraksh Vankawala
+  major: Mechanical Engineering
+  year: Sophomore
+- name: Pedro Alvarez
+  major: Economics + Managerial Studies + Politics, Law, Social Thought (minor)
+  year: Senior
+- name: Rebecca Topper
+  major: English
+  year: Sophomore
+- name: Rishu Harpavat
+  major: Computer Science
+  year: Junior
+- name: Rolando Marquez
+  major: Bioengineering
+  year: Sophomore
+- name: Saad Yousaf
+  major: Mechanical Engineering + Asian Studies + Engineering Design (minor)
+  year: Junior
+- name: Sachi Paul
+  major: Cognitive Science; Poverty, Justice, Human Capabilities (minor)
+  year: Sophomore
+- name: Selase Buatsi
+  major: Philosophy + Managerial Studies + Business (minor)
+  year: Sophomore
+- name: Zachary Verne
+  major: Visual and Dramatic Arts (Theatre) + Environmental Science
+  year: Sophomore
+- name: Zulfa Quadri
+  major: Cognitive Sciences (Neuroscience)
+  year: Senior
