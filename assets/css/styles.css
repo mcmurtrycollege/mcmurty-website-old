@@ -252,11 +252,48 @@ nav {
         background-color: white; }
   @media (max-width: 920px), (max-device-width: 920px) {
     nav {
-      height: 100%;
-      background-color: #FFF; } }
+      display: none; } }
+
+.mobile-nav {
+  display: block;
+  height: 500px;
+  background-color: #FFF; }
+
+.mobile-nav-menu {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column; }
+  .mobile-nav-menu .nav-link:link, .mobile-nav-menu .nav-link:visited {
+    color: #443850; }
+  .mobile-nav-menu .nav-submenu {
+    height: 20px;
+    padding: 20px 12px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase; }
+    .mobile-nav-menu .nav-submenu:link, .mobile-nav-menu .nav-submenu:visited {
+      color: #443850; }
 
 .oweek-nav {
   background-color: black; }
+
+.fixed-nav {
+  position: fixed;
+  background-color: white; }
+
+.scroll-nav {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.fixed-nav-link {
+  color: #443850;
+  font-weight: 600; }
+
+.scroll-nav-link {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400; }
 
 footer {
   width: 100%;
@@ -511,7 +548,7 @@ footer {
     color: black;
     padding: 0; }
 
-.link-masters {
+.link-magisters {
   color: #443850; }
 
 .selected {
