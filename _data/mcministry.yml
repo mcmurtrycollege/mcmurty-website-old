@@ -47,77 +47,65 @@
         year: 2019
         email: mcmurtrypc@gmail.com
     -   position: 2 Yellow
-        name: Leah Sherman
-        year: 2018
-        email: lbs3@rice.edu
-    -   position: 2 Orange
-        name: Jasmine Lin
-        year: 2018
-        email: jl118@rice.edu
-    -   position: 3 Yellow
-        name: Victoria Yuan
-        year: 2017
-        email: vy1@rice.edu
-    -   position: 3 Orange
-        name: Kelsi Wicker
-        year: 2018
-        email: kmw7@rice.edu
-    -   position: 4 Yellow
-        name: Rachel Resnick
-        year: 2017
-        email: rdr2@rice.edu
-    -   position: 4 Orange
-        name: Nick Killian
-        year: 2019
-        email: njk4@rice.edu
-    -   position: 5th Floor
-        name: Latifat Alabi
-        year: 2017
-        email: laa6@rice.edu
-    -   position: Off Campus
-        name: Laura Ruthig-Poon
-        year: 2017
-        email: lwr1@rice.edu
-    -   position: Off Campus
-        name: Lisha Huang
-        year: 2017
-        email: lh18@rice.edu
-    -   position: First Year Rep
-        name: Jake Bhoi
+        name: Sarah Gao
         year: 2020
-        email: jdb15@rice.edu
+        email: sg64@rice.edu
+    -   position: 2 Orange
+        name: Kelsey Sanders
+        year: 2020
+        email: kns4@rice.edu
+    -   position: 3 Yellow
+        name: TBD
+        year: 
+        email: 
+    -   position: 3 Orange
+        name: Saad Yousaf
+        year: 2018
+        email: sny1@rice.edu
+    -   position: 4 Yellow
+        name: Elizabeth Hoffman
+        year: 2017
+        email: eah10@rice.edu
+    -   position: 4 Orange
+        name: Davis Nelson
+        year: 2020
+        email: dvn2@rice.edu
+    -   position: 5th Floor
+        name: Caroline Krawczyk
+        year: 2018
+        email: cek2@rice.edu
+    -   position: Off Campus
+        name: Andrew Grottkau
+        year: 2019
+        email: abg4@rice.edu
+    -   position: Off Campus
+        name: Sofia Russo
+        year: 2020
+        email: smr13@rice.edu
     -   position: First Year Rep
-        name: Maishara Muquith 
+        name: TBD
+        year: 2021
+        email: 
+    -   position: First Year Rep
+        name: TBD
+        year: 2021
+        email: 
+    -   position: First Year Rep
+        name: TBD
+        year: 2021
+        email:
+    -   position: RPC Rep
+        name: Maishara Muquith
         year: 2020
         email: mm100@rice.edu
-    -   position: First Year Rep
-        name: Miranda Lee
-        year: 2020
-        email: mpl8@rice.edu
-    -   position: RPC Rep
-        name: Laura Ruthig-Poon
-        year: 2017
-        email: lwr1@rice.edu
 -   name: McCabinet
     members:
         -   position: Honor Council Rep
-            name: Angel Garces
-            year: 2018
-            email: aag6@rice.edu
+            name: TBD
+            year:
+            email: 
         -   position: Parliamentarian
-            name: Carlin Cherry
-            year: 2019
-            email: cec14@rice.edu
-        -   position: Historian
-            name: Isabella Yang
-            year: 2017
-            email: yy28@rice.edu
-        -   position: Historian
-            name: Jeffrey Xiong
-            year: 2018
-            email: jx13@rice.edu
-        -   position: Historian
-            name: Kelsi Wicker
-            year: 2018
-            email: kmw7@rice.edu
+            name: Sam Rossum
+            year: 2020
+            email: sdr5@rice.edu
 
