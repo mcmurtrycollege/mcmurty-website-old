@@ -24,7 +24,7 @@ Everything else under the second '---' is the content of the post.
 2. Filename should be in the format of '**YYYY-MM-DD-title.md**'. For example: **2016-02-15-sample.md**
 3. You can follow the format of this file to write the body of the post. Click on the **PENCIL** icon to view syntax. (There are some more markdown tips further down)
 4. Once done, there should be a 'Commit New File' option. The first input box is a description -- this is necessary. You can follow the format 'posted [title of post]'. Leave the radio button at 'Commit directly to master'. You should now be able to click 'Commit new file'. 
-5. You're done! Celebrate!
+5. You're done! Yay! Celebrate!
 
 #### markdown tips
 
