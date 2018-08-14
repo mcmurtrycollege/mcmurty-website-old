@@ -1,50 +1,50 @@
 -   name: Executive Council 2017-18
     members:
     -   position: President
-        name: Walden Pemantle
-        year: 2018
+        name: Quinn Matthews
+        year: 2019
         email: mcmurtrypresident@gmail.com
     -   position: Prime Minister
-        name: Katie Mackall
-        year: 2019
+        name: Jannie Matar
+        year: 2020
         email: murtpm@gmail.com
     -   position: Internal VP
-        name: Gina de la Guardia
-        year: 2019
+        name: Davis Nelson
+        year: 2020
         email: mcmurtryivp@gmail.com
     -   position: External VP
-        name: Chelsea Morin
-        year: 2019
-        email: mcmurtryevp@gmail.com
-    -   position: Secretary
-        name: Miranda Lee
-        year: 2020
-        email: mcmsecretary@gmail.com
-    -   position: Secretary
-        name: Rebecca Topper
-        year: 2020
-        email: mcmsecretary@gmail.com
-    -   position: Treasurer
-        name: Asli Yilmaz
-        year: 2020
-        email: mcmurtrytreasurer@gmail.com
-    -   position: Treasurer
         name: Maishara Muquith
         year: 2020
+        email: mcmurtryevp@gmail.com
+    -   position: Secretary
+        name: Carolyn Daly
+        year: 2021
+        email: mcmsecretary@gmail.com
+    -   position: Secretary
+        name: Jonathan Bloom
+        year: 2021
+        email: mcmsecretary@gmail.com
+    -   position: Treasurer
+        name: Lily Cao
+        year: 2021
+        email: mcmurtrytreasurer@gmail.com
+    -   position: Treasurer
+        name: Stephanie Ponce
+        year: 2021
         email: mcmurtrytreasurer@gmail.com
     -   position: Chief Justice
-        name: Albert Nabiullin
-        year: 2018
+        name: Bryce Miller
+        year: 2020
         email: mcmurtrycj@gmail.com
     -   position: SA Senator
-        name: Albert Nabiullin
-        year: 2018
+        name: Joyce Chen
+        year: 2020
         email: mcmurtrysenator@gmail.com
 -   name: People's Council
     members:
     -   position: At Large Rep
-        name: Sydney Garrett
-        year: 2019
+        name: Miranda Lee
+        year: 2020
         email: mcmurtrypc@gmail.com
     -   position: 2 Yellow
         name: Sarah Gao
@@ -105,7 +105,7 @@
             year:
             email: 
         -   position: Parliamentarian
-            name: Sam Rossum
+            name: Rolando Marquez
             year: 2020
-            email: sdr5@rice.edu
+            email: rm58@rice.edu
 
