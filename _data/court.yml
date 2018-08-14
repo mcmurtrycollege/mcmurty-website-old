@@ -6,49 +6,36 @@ chief:
     email: mcmurtrycj@gmail.com
 
 associates:
--   name: Grant Lu
+-   name: Zach Verne
     year: 2020
-    phone: (713) 502-2096
-    location: 420
-    email: gwl3@rice.edu
--   name: Joyce Moon
-    year: 2019
-    phone: (972) 765-6368
-    location: 540
-    email: jhm6@rice.edu
+    phone: (919) 798-4276
+    email: zjv1@rice.edu
 -   name: Miriam Wolter
-    year: 2020
+    year: 20201
     phone: (703) 939-2060
-    location: 254
     email: mew7@rice.edu
 -   name: Noble Twum-Barimah
     year: 2019
     phone: (609) 423-5986
-    location: 343
     email: ont1@rice.edu
--   name: Paul Onyali
-    year: 2019
-    phone: (253) 355-0978
-    location: 403
-    email: pco3@rice.edu
--   name: Rolando Marquez
-    year: 2020
-    phone: (713) 517-3278
-    location: 242
-    email: rm58@rice.edu
--   name: Tullie St. John
-    year: 2019
-    phone: (860) 227-0884
-    location: 218
-    email: tos3@rice.edu
--   name: Zach Verne
-    year: 2020
-    phone: (919) 798-4276
-    location: 470
-    email: zjv1@rice.edu
--   name: Zoe Punske
-    year: 2018
-    phone: (512) 785-2282
-    location: 334
-    email: zep2@rice.edu
+-   name: Augi Liebster
+    year: 2021
+    phone: (714) 499-0282
+    email: adl5@rice.edu
+-   name: Eitan Woloski
+    year: 2021
+    phone: (956) 205-5571
+    email: ew24@rice.edu
+-   name: Liana Hamm
+    year: 2021
+    phone: (217) 370-0748
+    email: leh9@rice.edu
+-   name: Ben Lastoa
+    year: 2021
+    phone: (703) 307-4956
+    email: bjl8@rice.edu
+-   name: Anika Jain
+    year: 2021
+    phone: (408) 627-5760
+    email: aaj11@rice.edu
 
