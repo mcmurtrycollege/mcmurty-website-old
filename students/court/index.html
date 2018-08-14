@@ -11,7 +11,6 @@ title: Court
 			<th> Name </th>
 			<th> Phone </th>
 			<th> Email </th>
-			<th> Hall </th>
 			<th> Year </th>
 		</tr>
 		{% assign chief = site.data.court.chief %}
@@ -20,7 +19,6 @@ title: Court
 			<td> {{ chief.name }} </td>
 			<td> {{ chief.phone }} </td>
 			<td> <a href='mailto:{{ chief.email }}'> {{ chief.email }} </a> </td>
-			<td> {{ chief.location }} </td>
 			<td> {{ chief.year }} </td>
 		</tr>
 		{% assign associates = site.data.court.associates %}
@@ -32,7 +30,6 @@ title: Court
 				<td> {{ justice.name }} </td>
 				<td> {{ justice.phone }} </td>
 				<td> <a href='mailto:{{ justice.email }}'> {{ justice.email }} </a> </td>
-				<td> {{ justice.location }} </td>
 				<td> {{ justice.year }} </td>
 			</tr>
 		{% endfor %}
