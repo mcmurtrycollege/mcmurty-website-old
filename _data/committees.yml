@@ -55,6 +55,17 @@
                     email: jch17@rice.edu
                 -   name: Nick Killian
                     email: njk4@rice.edu
+                    
+        -   name: Historian
+            description: The historian committee is the link between current McMurtry and our past. They keep track of McMurtry history through photos, scrapbooks, articles, and the Rice archives. Even more than just recording the college history, they are capturing the history of each and every Murt student, so know one ever forgets their McMurtry experience.
+            freshmen: Our committee engages new students by allowing them to be an active part in documenting McMurtry history and improving it for the future. 
+            heads:
+                -   name: Kelsey Sanders
+                    email: kns4@rice.edu
+                -   name: Joyce Moon
+                    email: jhm6@rice.edu
+                -   name: Esther Thang
+                    email: ext1@rice.edu
 
 -   name: Internal
     class: internal
