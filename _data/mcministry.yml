@@ -42,17 +42,17 @@
         email: mcmurtrysenator@gmail.com
 -   name: People's Council
     members:
-    -   position: At Large Rep
+    -   position: Interim At Large Rep 
         name: Carolyn Daly
         year: 2021
         email: mcmurtrypc@gmail.com
     -   position: 2 Yellow
         name: Kelsey Sanders
-        year: 
+        year: 2020
         email: kns4@rice.edu
     -   position: 2 Orange
         name: Chelsea Morin
-        year: 
+        year: 2019
         email: clm13@rice.edu
     -   position: 3 Yellow
         name: Anika Jain
@@ -64,33 +64,32 @@
         email: jmr16@rice.edu
     -   position: 4 Yellow
         name: Joyce Moon
-        year: 
+        year: 2019
         email: jhm6@rice.edu
     -   position: 4 Orange
         name: Katie Mackall
-        year: 
+        year: 2019
         email: kmr8@rice.edu
     -   position: 5th Floor
         name: Mahdi Fariss
-        year: 
+        year: 2019
         email: mzf2@rice.edu
     -   position: Off Campus
         name: Jake Bhoi
-        year: 
+        year: 2020
         email: jdb15@rice.edu
-        #############
     -   position: First Year Rep
-        name: TBD
+        name: AJ Valenty
         year: 2021
-        email: 
+        email: amv10@rice.edu
     -   position: First Year Rep
-        name: TBD
+        name: Dylan Nguyen
         year: 2021
-        email: 
+        email: dhn5@rice.edu
     -   position: First Year Rep
-        name: TBD
+        name: Aruni Areti
         year: 2021
-        email:
+        email: asa12@rice.edu
     -   position: RPC Rep
         name: Maishara Muquith
         year: 2020
