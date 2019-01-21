@@ -125,6 +125,8 @@
             heads: 
                 -   name: Augi Liebster
                     email: adl5@rice.edu
+                -   name: Chatham Abate
+                    email: caa8@rice.edu
 
 -   name: Social
     class: social
